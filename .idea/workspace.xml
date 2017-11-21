@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="322f4883-3260-43cd-8e97-c18af38111d9" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" executionDataType="PHAR" phpInterpreterId="6205a917-2712-4cba-96e1-e7c8a5ce2756" synchronizationState="DONT_SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="engryword@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="memodb.db [2]" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="memodb.db [2]" type="e3449647:DbNodeDescriptor" />
+        <item name="main" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="memodb.db [2]" type="e3449647:DbNodeDescriptor" />
+        <item name="main" type="e3449647:DbNodeDescriptor" />
+        <item name="sqlite_master" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="restaurant@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="restaurant@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="restaurant" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cakephp3" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/UsersController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/Users/index.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticlesController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/ArticlesController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Entity/Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/Articles/index.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+              <folding>
+                <element signature="e#6#128#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticlesTable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Table/ArticlesTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="HTML5 ctp" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>modify</find>
+      <find>numbers</find>
+      <find>template</find>
+      <find>session</find>
+      <find>compileQuery</find>
+      <find>$_templates</find>
+      <find>this-&gt;offset</find>
+      <find>offset</find>
+      <find>offsetGet</find>
+      <find>_templates</find>
+      <find>$offset</find>
+      <find>memo</find>
+      <find>scalar</find>
+      <find>function scalar</find>
+      <find>authenticate</find>
+      <find>Invalid username or password</find>
+      <find>flash</find>
+      <find>Flash</find>
+      <find>greatSuccess</find>
+      <find>cookie</find>
+      <find>cookieKey</find>
+      <find>$this-&gt;key</find>
+      <find>Security</find>
+      <find>blackHoleCallback</find>
+      <find>page</find>
+      <find>RequestHandler</find>
+      <find>_serialize</find>
+      <find>authorize</find>
+      <find>sess</find>
+      <find>로그</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\cakephp3</dir>
+      <dir>C:\xampp\htdocs\cakephp3\src\Template\Element</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/webroot/css/memo.css" />
+        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/UrlHelper.php" />
+        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/Router.php" />
+        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Routing/RouteCollection.php" />
+        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php" />
+        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Http/ServerRequest.php" />
+        <option value="$PROJECT_DIR$/src/View/AppView.php" />
+        <option value="$PROJECT_DIR$/db/memodb.sql" />
+        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Connection.php" />
+        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Datasource/Paginator.php" />
+        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php" />
+        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/QueryCompiler.php" />
+        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Database/Query.php" />
+        <option value="$PROJECT_DIR$/src/Template/Memos/find.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Memos/index.ctp" />
+        <option value="$PROJECT_DIR$/db/menu.sql" />
+        <option value="$PROJECT_DIR$/config/bootstrap.php" />
+        <option value="$PROJECT_DIR$/src/Template/Layout/default.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Layout/usersLayout.ctp" />
+        <option value="$PROJECT_DIR$/src/Model/Table/MemosTable.php" />
+        <option value="$PROJECT_DIR$/src/Controller/MemosController.php" />
+        <option value="$PROJECT_DIR$/src/Template/Users/view.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Users/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Model/Entity/User.php" />
+        <option value="$PROJECT_DIR$/db/users.sql" />
+        <option value="$PROJECT_DIR$/src/Template/Users/add.ctp" />
+        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/ControllerAuthorize.php" />
+        <option value="$PROJECT_DIR$/src/Controller/CommentsController.php" />
+        <option value="$PROJECT_DIR$/src/Template/Admin/Users/index.ctp" />
+        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php" />
+        <option value="$PROJECT_DIR$/src/Shell/SendMailShell.php" />
+        <option value="$PROJECT_DIR$/src/Template/Element/Flash/success.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Element/Flash/great_info.ctp" />
+        <option value="$PROJECT_DIR$/src/Application.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/src/Controller/Admin/UsersController.php" />
+        <option value="$PROJECT_DIR$/src/Template/Users/login.ctp" />
+        <option value="$PROJECT_DIR$/config/routes.php" />
+        <option value="$PROJECT_DIR$/src/Controller/UsersController.php" />
+        <option value="$PROJECT_DIR$/src/Model/Table/UsersTable.php" />
+        <option value="$PROJECT_DIR$/src/Template/Articles/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Articles/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Articles/view.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Users/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Locale/default.pot" />
+        <option value="$PROJECT_DIR$/src/Controller/AppController.php" />
+        <option value="$PROJECT_DIR$/src/Locale/ko_KR/default.po" />
+        <option value="$PROJECT_DIR$/src/Template/Articles/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Model/Entity/Article.php" />
+        <option value="$PROJECT_DIR$/src/Controller/ArticlesController.php" />
+        <option value="$PROJECT_DIR$/src/Model/Table/ArticlesTable.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="7d26bf92-33e3-45ab-a1a1-331a2ce20afc" name="localhost" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/robmorgan/phinx" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/aura/intl" />
+      <path value="$PROJECT_DIR$/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/cakephp" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/plugin-installer" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/migrations" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/bake" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/chronos" />
+      <path value="$PROJECT_DIR$/vendor/cakephp/debug_kit" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/seld/cli-prompt" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/friendsofcake/cakephp-csvview" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="307" />
+    <option name="y" value="61" />
+    <option name="width" value="1605" />
+    <option name="height" value="1018" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="schema" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Locale" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Locale" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="en_US" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Locale" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ja_JP" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Locale" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ko_KR" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Table" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Template" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Articles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Template" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Users" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="aura" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="aura" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="intl" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="aura" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="intl" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cakephp" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cakephp3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cakephp3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="webroot" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/Template/Posts/index.ctp" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;MySQL" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JSON" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\cakephp3\webroot\js" />
+      <recent name="C:\xampp\htdocs\cakephp3\src\Template\Customers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\cakephp3\src\Template\Users" />
+      <recent name="C:\xampp\htdocs\cakephp3\src\Template\Element\Flash" />
+      <recent name="C:\xampp\htdocs\cakephp3\src\Template\Admin\Users" />
+      <recent name="C:\xampp\htdocs\cakephp3\src\Template\Layout" />
+      <recent name="C:\xampp\htdocs\cakephp3\src\Template\Memos" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.UsersTable.php">
+    <configuration name="UsersTable.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/cakephp3/Model/Table/UsersTable.php" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.UsersTable.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="322f4883-3260-43cd-8e97-c18af38111d9" name="Default" comment="" />
+      <created>1488493239198</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1488493239198</updated>
+      <workItem from="1488493240477" duration="1633000" />
+      <workItem from="1488540042619" duration="83000" />
+      <workItem from="1488552034878" duration="2358000" />
+      <workItem from="1488678854216" duration="5623000" />
+      <workItem from="1488808989029" duration="4729000" />
+      <workItem from="1488890830774" duration="7715000" />
+      <workItem from="1488975033408" duration="9103000" />
+      <workItem from="1489011983352" duration="62000" />
+      <workItem from="1489054464008" duration="6190000" />
+      <workItem from="1489100644104" duration="17000" />
+      <workItem from="1489147796911" duration="210000" />
+      <workItem from="1489148049258" duration="893000" />
+      <workItem from="1489226655307" duration="1887000" />
+      <workItem from="1489320086306" duration="5808000" />
+      <workItem from="1489402387490" duration="7200000" />
+      <workItem from="1489533518439" duration="131000" />
+      <workItem from="1489573357750" duration="4336000" />
+      <workItem from="1489664922185" duration="2204000" />
+      <workItem from="1489762907151" duration="614000" />
+      <workItem from="1489893660439" duration="3953000" />
+      <workItem from="1489977820460" duration="2000" />
+      <workItem from="1490061949309" duration="2130000" />
+      <workItem from="1490179155408" duration="61000" />
+      <workItem from="1490264568340" duration="2113000" />
+      <workItem from="1490362442844" duration="51000" />
+      <workItem from="1490362573999" duration="711000" />
+      <workItem from="1490402119722" duration="1268000" />
+      <workItem from="1490442829560" duration="1200000" />
+      <workItem from="1490480116715" duration="750000" />
+      <workItem from="1490513777914" duration="5312000" />
+      <workItem from="1490537267679" duration="6539000" />
+      <workItem from="1490609545015" duration="2435000" />
+      <workItem from="1490656501550" duration="77000" />
+      <workItem from="1490701130271" duration="6243000" />
+      <workItem from="1490741274532" duration="1768000" />
+      <workItem from="1490868524067" duration="50000" />
+      <workItem from="1490881940233" duration="3423000" />
+      <workItem from="1490958268428" duration="617000" />
+      <workItem from="1491011691769" duration="680000" />
+      <workItem from="1491139219480" duration="895000" />
+      <workItem from="1491213659697" duration="4404000" />
+      <workItem from="1491303809131" duration="599000" />
+      <workItem from="1491386706982" duration="4420000" />
+      <workItem from="1491489091850" duration="13000" />
+      <workItem from="1491489155415" duration="1748000" />
+      <workItem from="1491605591616" duration="8000" />
+      <workItem from="1491642214757" duration="618000" />
+      <workItem from="1491772328749" duration="3150000" />
+      <workItem from="1491820432267" duration="1498000" />
+      <workItem from="1491908206763" duration="1546000" />
+      <workItem from="1491950942738" duration="94000" />
+      <workItem from="1491997031792" duration="43000" />
+      <workItem from="1491997088350" duration="2937000" />
+      <workItem from="1492079293678" duration="39000" />
+      <workItem from="1492079391697" duration="3187000" />
+      <workItem from="1492261176170" duration="3633000" />
+      <workItem from="1492307389519" duration="605000" />
+      <workItem from="1492425804081" duration="6161000" />
+      <workItem from="1492513716028" duration="3382000" />
+      <workItem from="1492614230249" duration="4427000" />
+      <workItem from="1492724732925" duration="4000" />
+      <workItem from="1492848796191" duration="599000" />
+      <workItem from="1492913519800" duration="810000" />
+      <workItem from="1492988302854" duration="600000" />
+      <workItem from="1493028394860" duration="604000" />
+      <workItem from="1493120885446" duration="2296000" />
+      <workItem from="1493205771707" duration="37000" />
+      <workItem from="1493249042046" duration="599000" />
+      <workItem from="1493292682791" duration="1202000" />
+      <workItem from="1493389509871" duration="10000" />
+      <workItem from="1493389562286" duration="20000" />
+      <workItem from="1493389598491" duration="225000" />
+      <workItem from="1493396045260" duration="758000" />
+      <workItem from="1493423393370" duration="6000" />
+      <workItem from="1493423493355" duration="30000" />
+      <workItem from="1493423534594" duration="608000" />
+      <workItem from="1493510544058" duration="3543000" />
+      <workItem from="1493548789667" duration="3014000" />
+      <workItem from="1493637036975" duration="99000" />
+      <workItem from="1493643479810" duration="602000" />
+      <workItem from="1493724271259" duration="599000" />
+      <workItem from="1493767013078" duration="6000" />
+      <workItem from="1493825534664" duration="33000" />
+      <workItem from="1493853330117" duration="376000" />
+      <workItem from="1493984346972" duration="599000" />
+      <workItem from="1494031008652" duration="4624000" />
+      <workItem from="1494073469141" duration="9919000" />
+      <workItem from="1494248799633" duration="4330000" />
+      <workItem from="1494327427625" duration="1730000" />
+      <workItem from="1494423588424" duration="2443000" />
+      <workItem from="1494507123687" duration="596000" />
+      <workItem from="1494860388110" duration="29000" />
+      <workItem from="1495119370007" duration="31000" />
+      <workItem from="1495374575507" duration="1452000" />
+      <workItem from="1495492133165" duration="1081000" />
+      <workItem from="1495541964837" duration="3142000" />
+      <workItem from="1495630756856" duration="853000" />
+      <workItem from="1495633377195" duration="811000" />
+      <workItem from="1495857418505" duration="1020000" />
+      <workItem from="1495868067091" duration="7042000" />
+      <workItem from="1496089897614" duration="1490000" />
+      <workItem from="1496185601793" duration="176000" />
+      <workItem from="1496185805173" duration="598000" />
+      <workItem from="1496410244440" duration="1048000" />
+      <workItem from="1496765464287" duration="5000" />
+      <workItem from="1496971213382" duration="529000" />
+      <workItem from="1497019452362" duration="17000" />
+      <workItem from="1497066807541" duration="198000" />
+      <workItem from="1497178043642" duration="599000" />
+      <workItem from="1497262324818" duration="599000" />
+      <workItem from="1497348352433" duration="599000" />
+      <workItem from="1497521877763" duration="33000" />
+      <workItem from="1497526524117" duration="4351000" />
+      <workItem from="1497621719953" duration="5290000" />
+      <workItem from="1497762957996" duration="611000" />
+      <workItem from="1497765966747" duration="610000" />
+      <workItem from="1497911784422" duration="599000" />
+      <workItem from="1497953501221" duration="1198000" />
+      <workItem from="1498063189948" duration="604000" />
+      <workItem from="1498089685312" duration="599000" />
+      <workItem from="1498116798133" duration="2776000" />
+      <workItem from="1498213508887" duration="599000" />
+      <workItem from="1498395509522" duration="332000" />
+      <workItem from="1498476950936" duration="598000" />
+      <workItem from="1498495668320" duration="2298000" />
+      <workItem from="1498564615594" duration="6922000" />
+      <workItem from="1498648915259" duration="611000" />
+      <workItem from="1498744685647" duration="3538000" />
+      <workItem from="1498839492847" duration="21000" />
+      <workItem from="1498875805448" duration="4000" />
+      <workItem from="1498919526377" duration="7000" />
+      <workItem from="1498979100713" duration="22000" />
+      <workItem from="1498999006522" duration="606000" />
+      <workItem from="1499034946423" duration="8000" />
+      <workItem from="1499078022208" duration="3675000" />
+      <workItem from="1499178926530" duration="620000" />
+      <workItem from="1499263986864" duration="1197000" />
+      <workItem from="1499349699850" duration="599000" />
+      <workItem from="1499429462574" duration="599000" />
+      <workItem from="1499494894420" duration="688000" />
+      <workItem from="1499694576751" duration="6000" />
+      <workItem from="1499695942975" duration="2805000" />
+      <workItem from="1499869730723" duration="598000" />
+      <workItem from="1499900976730" duration="625000" />
+      <workItem from="1499946376808" duration="3531000" />
+      <workItem from="1500188910663" duration="635000" />
+      <workItem from="1500361445783" duration="11762000" />
+      <workItem from="1500473628724" duration="97000" />
+      <workItem from="1500473840805" duration="2073000" />
+      <workItem from="1500477965616" duration="409000" />
+      <workItem from="1500478388709" duration="477000" />
+      <workItem from="1500545717613" duration="653000" />
+      <workItem from="1500567821319" duration="6791000" />
+      <workItem from="1500639784124" duration="599000" />
+      <workItem from="1500743170980" duration="3242000" />
+      <workItem from="1500748228791" duration="350000" />
+      <workItem from="1500777567385" duration="3958000" />
+      <workItem from="1500893858214" duration="6584000" />
+      <workItem from="1500983423620" duration="607000" />
+      <workItem from="1500991245785" duration="3277000" />
+      <workItem from="1501024537709" duration="316000" />
+      <workItem from="1501070468847" duration="2196000" />
+      <workItem from="1501160908454" duration="2707000" />
+      <workItem from="1501163681669" duration="2378000" />
+      <workItem from="1501256906643" duration="461000" />
+      <workItem from="1501410284645" duration="4761000" />
+      <workItem from="1501496099784" duration="4483000" />
+      <workItem from="1501586930531" duration="70000" />
+      <workItem from="1501667690931" duration="1815000" />
+      <workItem from="1501763187038" duration="74000" />
+      <workItem from="1501763303406" duration="180000" />
+      <workItem from="1501859224759" duration="4000" />
+      <workItem from="1501915171329" duration="6352000" />
+      <workItem from="1501944678635" duration="661000" />
+      <workItem from="1501996342250" duration="7263000" />
+      <workItem from="1502021972320" duration="12583000" />
+      <workItem from="1502099455281" duration="4493000" />
+      <workItem from="1502189843770" duration="1832000" />
+      <workItem from="1502279685347" duration="599000" />
+      <workItem from="1502287074260" duration="1851000" />
+      <workItem from="1502375517027" duration="621000" />
+      <workItem from="1502432125122" duration="322000" />
+      <workItem from="1502545295724" duration="608000" />
+      <workItem from="1502684319652" duration="29000" />
+      <workItem from="1502764458291" duration="2927000" />
+      <workItem from="1502877501117" duration="9000" />
+      <workItem from="1502877522776" duration="5649000" />
+      <workItem from="1502966411202" duration="7080000" />
+      <workItem from="1503060089443" duration="599000" />
+      <workItem from="1503107806382" duration="599000" />
+      <workItem from="1503144810343" duration="1116000" />
+      <workItem from="1503149187357" duration="3090000" />
+      <workItem from="1503244142990" duration="629000" />
+      <workItem from="1503269142967" duration="1065000" />
+      <workItem from="1503309083505" duration="7161000" />
+      <workItem from="1503368539197" duration="10158000" />
+      <workItem from="1503474294763" duration="6017000" />
+      <workItem from="1503573114985" duration="2333000" />
+      <workItem from="1503669808426" duration="611000" />
+      <workItem from="1503816191135" duration="9057000" />
+      <workItem from="1503872602180" duration="614000" />
+      <workItem from="1503919928429" duration="1805000" />
+      <workItem from="1503975785682" duration="9280000" />
+      <workItem from="1504089408346" duration="4201000" />
+      <workItem from="1504176308129" duration="3447000" />
+      <workItem from="1504259905526" duration="609000" />
+      <workItem from="1504438843390" duration="2487000" />
+      <workItem from="1504519714865" duration="602000" />
+      <workItem from="1504623566307" duration="1283000" />
+      <workItem from="1504710128576" duration="3003000" />
+      <workItem from="1504795252599" duration="326000" />
+      <workItem from="1504826256491" duration="3000" />
+      <workItem from="1505035941589" duration="3327000" />
+      <workItem from="1505132658919" duration="4745000" />
+      <workItem from="1505216137088" duration="2915000" />
+      <workItem from="1505297333285" duration="1249000" />
+      <workItem from="1505304325077" duration="4640000" />
+      <workItem from="1505343122406" duration="1580000" />
+      <workItem from="1505391488439" duration="97000" />
+      <workItem from="1505396465493" duration="2583000" />
+      <workItem from="1505429985960" duration="632000" />
+      <workItem from="1505470350260" duration="601000" />
+      <workItem from="1505638201560" duration="31539000" />
+      <workItem from="1505772937600" duration="1254000" />
+      <workItem from="1505817491533" duration="98000" />
+      <workItem from="1505817621781" duration="1745000" />
+      <workItem from="1505901484863" duration="3880000" />
+      <workItem from="1505944683719" duration="739000" />
+      <workItem from="1505994963550" duration="17647000" />
+      <workItem from="1506097162425" duration="641000" />
+      <workItem from="1506148238531" duration="538000" />
+      <workItem from="1506246839736" duration="8783000" />
+      <workItem from="1506333258826" duration="9493000" />
+      <workItem from="1506420595427" duration="5381000" />
+      <workItem from="1506445963071" duration="6450000" />
+      <workItem from="1506467489697" duration="869000" />
+      <workItem from="1506505668126" duration="614000" />
+      <workItem from="1506506398800" duration="3916000" />
+      <workItem from="1506623563168" duration="7632000" />
+      <workItem from="1506866087978" duration="8521000" />
+      <workItem from="1506896063569" duration="2026000" />
+      <workItem from="1506946251448" duration="12182000" />
+      <workItem from="1506981770859" duration="3513000" />
+      <workItem from="1507029104520" duration="5212000" />
+      <workItem from="1507112197560" duration="1240000" />
+      <workItem from="1507149489685" duration="2589000" />
+      <workItem from="1507200800373" duration="665000" />
+      <workItem from="1507235662388" duration="2925000" />
+      <workItem from="1507288188734" duration="599000" />
+      <workItem from="1507373692592" duration="22000" />
+      <workItem from="1507392810113" duration="6000" />
+      <workItem from="1507418971473" duration="30309000" />
+      <workItem from="1507516481265" duration="599000" />
+      <workItem from="1507630456615" duration="19000" />
+      <workItem from="1507722770280" duration="295000" />
+      <workItem from="1507732607563" duration="1924000" />
+      <workItem from="1507759412675" duration="1680000" />
+      <workItem from="1507805514590" duration="603000" />
+      <workItem from="1507816459191" duration="599000" />
+      <workItem from="1507868409469" duration="19000" />
+      <workItem from="1507951072720" duration="599000" />
+      <workItem from="1507983140555" duration="1205000" />
+      <workItem from="1508036185407" duration="2686000" />
+      <workItem from="1508086710239" duration="1311000" />
+      <workItem from="1508102365505" duration="1894000" />
+      <workItem from="1508105943698" duration="652000" />
+      <workItem from="1508150550850" duration="2717000" />
+      <workItem from="1508195369003" duration="940000" />
+      <workItem from="1508259035910" duration="4270000" />
+      <workItem from="1508448045069" duration="3603000" />
+      <workItem from="1508584015070" duration="7396000" />
+      <workItem from="1508672270639" duration="5936000" />
+      <workItem from="1508710622848" duration="1413000" />
+      <workItem from="1508756254609" duration="6191000" />
+      <workItem from="1508796361410" duration="1210000" />
+      <workItem from="1508838980840" duration="2934000" />
+      <workItem from="1508934920094" duration="2739000" />
+      <workItem from="1508972875769" duration="827000" />
+      <workItem from="1509010899511" duration="6000" />
+      <workItem from="1509055308428" duration="598000" />
+      <workItem from="1509100040601" duration="11000" />
+      <workItem from="1509113533138" duration="11000" />
+      <workItem from="1509142709949" duration="6863000" />
+      <workItem from="1509264558015" duration="1797000" />
+      <workItem from="1509282695427" duration="1171000" />
+      <workItem from="1509326096548" duration="22634000" />
+      <workItem from="1509455684247" duration="1076000" />
+      <workItem from="1509531345753" duration="12243000" />
+      <workItem from="1509613124825" duration="290000" />
+      <workItem from="1509634176013" duration="24000" />
+      <workItem from="1509677310382" duration="1270000" />
+      <workItem from="1509723995733" duration="4208000" />
+      <workItem from="1509765860351" duration="3868000" />
+      <workItem from="1509782585821" duration="2938000" />
+      <workItem from="1509792466413" duration="115000" />
+      <workItem from="1509825742808" duration="10906000" />
+      <workItem from="1509931104769" duration="1709000" />
+      <workItem from="1509962616826" duration="1122000" />
+      <workItem from="1509984028247" duration="6736000" />
+      <workItem from="1510050080285" duration="18915000" />
+      <workItem from="1510191566525" duration="24932000" />
+      <workItem from="1510283678056" duration="3817000" />
+      <workItem from="1510335537497" duration="74000" />
+      <workItem from="1510378670055" duration="7933000" />
+      <workItem from="1510450934562" duration="18532000" />
+      <workItem from="1510565946384" duration="11264000" />
+      <workItem from="1510658453976" duration="8089000" />
+      <workItem from="1510689426700" duration="2052000" />
+      <workItem from="1510730335344" duration="9311000" />
+      <workItem from="1510880586179" duration="599000" />
+      <workItem from="1510921247594" duration="1911000" />
+      <workItem from="1510969378802" duration="13361000" />
+      <workItem from="1511115169154" duration="5469000" />
+      <workItem from="1511163954099" duration="1229000" />
+      <workItem from="1511231387590" duration="1267000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="892948000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="307" y="61" width="1605" height="1018" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17540453" sideWeight="0.6994083" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14239483" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16116504" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="1460" y="215" width="344" height="652" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1703026" sideWeight="0.3005917" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2643275" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20701754" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="21" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Http/ServerRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="1929" column="20" lean-forward="false" selection-start-line="1929" selection-start-column="20" selection-end-line="1929" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Admin/Users/login.ctp" />
+    <entry file="file://$PROJECT_DIR$/src/Controller/Admin/UsersController.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Http/Middleware/EncryptedCookieMiddleware.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="117" column="41" lean-forward="false" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Users/login_bak.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/SecurityComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="159" column="47" lean-forward="true" selection-start-line="159" selection-start-column="47" selection-end-line="159" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/requirements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/EventListenerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Event/EventDispatcherInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Users/login.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/bootstrap_cli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/paginator-templates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/paths.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-711">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/config/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2459">
+          <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/RequestHandlerComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/SerializedView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="62" column="45" lean-forward="false" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/Configure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2373">
+          <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/JsonView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="112" column="13" lean-forward="true" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Core/InstanceConfigTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="70" column="20" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="76" column="54" lean-forward="false" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/users.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="63" column="86" lean-forward="false" selection-start-line="63" selection-start-column="86" selection-end-line="63" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="281" column="20" lean-forward="false" selection-start-line="281" selection-start-column="20" selection-end-line="281" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Users/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Articles/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/schema/sessions.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/TextHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="295" column="20" lean-forward="false" selection-start-line="295" selection-start-column="20" selection-end-line="295" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Articles/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="53" lean-forward="false" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Articles/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locale/default.pot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="147" column="0" lean-forward="true" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/UsersTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Users/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locale/ko_KR/default.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="257" column="9" lean-forward="false" selection-start-line="257" selection-start-column="9" selection-end-line="257" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/aura/intl/src/Package.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2508">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locale/cake.pot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/schema/i18n.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/ORM/Behavior/Translate/TranslateTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Articles/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <folding>
+            <element signature="e#6#128#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ArticlesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/SqliteController.php" />
+    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/ArticlesTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19462228" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

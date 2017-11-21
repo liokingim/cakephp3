@@ -1,0 +1,47 @@
+.memo_head {
+    font-size: 20px;
+    display: block;
+    height: 30px;
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+}
+.memo_head_name {
+    font-weight: 600;
+    position: relative;
+    margin-left: 50px;
+}
+.memo_head_link {
+    position: relative;
+    text-align: center;
+    font-weight: 900;
+    margin-left: 50%;
+    background: #5cb85c;
+    border-color: #4cae4c;
+    width: 30px;
+    display: inline-block;
+    border-radius: 15px;
+}
+.memo_head_link:hover {
+    background: #54a854;
+}
+.memo_head_link a {
+    color: white !important;
+}
+.btn_memo {
+    position: relative;
+    top: -3px;
+    background: #54a854;
+    padding: 0px 10px 5px 10px;
+    border-radius: 5px;
+}
+.btn_memo a {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    height: 30px;
+    line-height: 30px;
+}
+.btn_memo a:hover {
+    color: yellow;
+}

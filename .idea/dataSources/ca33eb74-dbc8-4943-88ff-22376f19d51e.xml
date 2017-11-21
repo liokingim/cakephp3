@@ -1,0 +1,2470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="engryword@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.3">
+    <root id="1"/>
+    <schema id="2" parent="1" name="engryword">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <schema id="6" parent="1" name="restaurant"/>
+    <schema id="7" parent="1" name="test"/>
+    <table id="8" parent="2" name="tbl_category">
+      <Comment>카테고리</Comment>
+    </table>
+    <table id="9" parent="2" name="tbl_consult">
+      <Comment>회원 1:1 상담</Comment>
+    </table>
+    <table id="10" parent="2" name="tbl_crossword">
+      <Comment>샘플 크로스워드</Comment>
+    </table>
+    <table id="11" parent="2" name="tbl_dottodot">
+      <Comment>dot to dot 게임</Comment>
+    </table>
+    <table id="12" parent="2" name="tbl_english_sentence">
+      <Comment>영어 문장만들기</Comment>
+    </table>
+    <table id="13" parent="2" name="tbl_english_sentence_log">
+      <Comment>영어 문장 만들기 기록</Comment>
+    </table>
+    <table id="14" parent="2" name="tbl_favorite">
+      <Comment>관심 단어</Comment>
+    </table>
+    <table id="15" parent="2" name="tbl_genre">
+      <Comment>장르리스트</Comment>
+    </table>
+    <table id="16" parent="2" name="tbl_genreinfo">
+      <Comment>영화 드라마 정보</Comment>
+    </table>
+    <table id="17" parent="2" name="tbl_genrevoca">
+      <Comment>영화 드라마 영어 단어</Comment>
+    </table>
+    <table id="18" parent="2" name="tbl_genrevocalog">
+      <Comment>장르 단어 공부이력</Comment>
+    </table>
+    <table id="19" parent="2" name="tbl_grade">
+      <Comment>등급</Comment>
+    </table>
+    <table id="20" parent="2" name="tbl_hanja">
+      <Comment>한자</Comment>
+    </table>
+    <table id="21" parent="2" name="tbl_idiom">
+      <Comment>사자성어</Comment>
+    </table>
+    <table id="22" parent="2" name="tbl_idiom_shiritori_log">
+      <Comment>끝말잇기 기록</Comment>
+    </table>
+    <table id="23" parent="2" name="tbl_idiom_shiritori_update_log">
+      <Comment>끝말잇기 업데이트 기록</Comment>
+    </table>
+    <table id="24" parent="2" name="tbl_lang">
+      <Comment>가능 언어</Comment>
+    </table>
+    <table id="25" parent="2" name="tbl_member">
+      <Comment>회원</Comment>
+    </table>
+    <table id="26" parent="2" name="tbl_memberboard">
+      <Comment>회원게시판</Comment>
+    </table>
+    <table id="27" parent="2" name="tbl_nihon">
+      <Comment>일본어 단어장</Comment>
+    </table>
+    <table id="28" parent="2" name="tbl_nihon_define">
+      <Comment>일본어 단어장 정의</Comment>
+    </table>
+    <table id="29" parent="2" name="tbl_nihon_sentence">
+      <Comment>일본어 단어장 예문</Comment>
+    </table>
+    <table id="30" parent="2" name="tbl_nihon_syslink">
+      <Comment>일본어 단어장 링크</Comment>
+    </table>
+    <table id="31" parent="2" name="tbl_noticeboard">
+      <Comment>공지사항</Comment>
+    </table>
+    <table id="32" parent="2" name="tbl_replyboard">
+      <Comment>회원게시판 댓글</Comment>
+    </table>
+    <table id="33" parent="2" name="tbl_score">
+      <Comment>회원당 한개의 전체 스코어 기록</Comment>
+    </table>
+    <table id="34" parent="2" name="tbl_score_daylog">
+      <Comment>스코어 하루 단위 로그</Comment>
+    </table>
+    <table id="35" parent="2" name="tbl_score_log">
+      <Comment>스코어 로그</Comment>
+    </table>
+    <table id="36" parent="2" name="tbl_script">
+      <Comment>스크립드 단어의 임시저장</Comment>
+    </table>
+    <table id="37" parent="2" name="tbl_searchlog">
+      <Comment>단어 검색 로그</Comment>
+    </table>
+    <table id="38" parent="2" name="tbl_sentence">
+      <Comment>단어장예문</Comment>
+    </table>
+    <table id="39" parent="2" name="tbl_setup">
+      <Comment>설정값</Comment>
+    </table>
+    <table id="40" parent="2" name="tbl_telnumber">
+      <Comment>전화번호 임시저장</Comment>
+    </table>
+    <table id="41" parent="2" name="tbl_update">
+      <Comment>최종 업데이트 날짜 정보</Comment>
+    </table>
+    <table id="42" parent="2" name="tbl_usercrossword">
+      <Comment>유저 크로스워드</Comment>
+    </table>
+    <table id="43" parent="2" name="tbl_voca">
+      <Comment>단어장</Comment>
+    </table>
+    <table id="44" parent="2" name="tbl_voca_category">
+      <Comment>단어의 카테고리 구분</Comment>
+    </table>
+    <table id="45" parent="2" name="tbl_voca_grade">
+      <Comment>단어의 등급 구분</Comment>
+    </table>
+    <table id="46" parent="2" name="tbl_voca_temp">
+      <Comment>단어장임시테이블</Comment>
+    </table>
+    <table id="47" parent="2" name="tbl_vocalog">
+      <Comment>공부한 단어장</Comment>
+    </table>
+    <table id="48" parent="2" name="tbl_wrongvoca">
+      <Comment>크로스워드에서 틀린 단어를 저장</Comment>
+    </table>
+    <column id="49" parent="8" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(2) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="50" parent="8" name="mean">
+      <Position>2</Position>
+      <Comment>이름</Comment>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="51" parent="8" name="vocacount">
+      <Position>3</Position>
+      <Comment>단어수</Comment>
+      <DataType>int(5)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="52" parent="8" name="voca">
+      <Position>4</Position>
+      <Comment>단어</Comment>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="53" parent="8" name="regdate">
+      <Position>5</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <key id="54" parent="8" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="55" parent="9" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="56" parent="9" name="replyidx">
+      <Position>2</Position>
+      <Comment>댓글 원본글 번호</Comment>
+      <DataType>int(11)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="57" parent="9" name="memberidx">
+      <Position>3</Position>
+      <Comment>회원번호</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="9" name="memberid">
+      <Position>4</Position>
+      <Comment>글작성 회원아이디</Comment>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="59" parent="9" name="title">
+      <Position>5</Position>
+      <Comment>타이틀</Comment>
+      <DataType>varchar(200)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="9" name="content">
+      <Position>6</Position>
+      <Comment>내용</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="9" name="consultkind">
+      <Position>7</Position>
+      <Comment>상담종류</Comment>
+      <DataType>tinyint(2)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="62" parent="9" name="isreply">
+      <Position>8</Position>
+      <Comment>댓글여부</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="63" parent="9" name="isanswer">
+      <Position>9</Position>
+      <Comment>답글존재여부</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="64" parent="9" name="deleteflg">
+      <Position>10</Position>
+      <Comment>삭제 여부</Comment>
+      <DataType>tinyint(1) unsigned zerofill|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="65" parent="9" name="deleteDate">
+      <Position>11</Position>
+      <Comment>삭제 날짜</Comment>
+      <DataType>datetime|0</DataType>
+      <DefaultExpression>&apos;1970-01-01 01:00:01&apos;</DefaultExpression>
+    </column>
+    <column id="66" parent="9" name="regdate">
+      <Position>12</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="67" parent="9" name="memberidx">
+      <ColNames>memberidx
+replyidx
+isreply
+idx
+deleteflg</ColNames>
+    </index>
+    <index id="68" parent="9" name="replyidx">
+      <ColNames>replyidx
+isreply</ColNames>
+    </index>
+    <key id="69" parent="9" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="70" parent="10" name="idx">
+      <Position>1</Position>
+      <DataType>int(5) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="71" parent="10" name="voca">
+      <Position>2</Position>
+      <Comment>단어</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="10" name="question">
+      <Position>3</Position>
+      <Comment>질문</Comment>
+      <DataType>varchar(500)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="10" name="vocalen">
+      <Position>4</Position>
+      <Comment>단어 길이</Comment>
+      <DataType>int(2)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <key id="74" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="75" parent="11" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="76" parent="11" name="name">
+      <Position>2</Position>
+      <Comment>이름</Comment>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="11" name="coordinates">
+      <Position>3</Position>
+      <Comment>각번호좌표</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="11" name="image_name">
+      <Position>4</Position>
+      <Comment>이미지명</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="79" parent="11" name="dotcount">
+      <Position>5</Position>
+      <Comment>점 갯수</Comment>
+      <DataType>smallint(3) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="80" parent="11" name="viewcount">
+      <Position>6</Position>
+      <Comment>뷰카운트</Comment>
+      <DataType>smallint(5) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="81" parent="11" name="copyright">
+      <Position>7</Position>
+      <Comment>저작권</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="82" parent="11" name="regdate">
+      <Position>8</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <key id="83" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="84" parent="12" name="idx">
+      <Position>1</Position>
+      <Comment>문장만들기번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="85" parent="12" name="daylevel">
+      <Position>2</Position>
+      <Comment>영어 문장 일정 레벨</Comment>
+      <DataType>tinyint(3) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="86" parent="12" name="sentence">
+      <Position>3</Position>
+      <Comment>영어 문장</Comment>
+      <DataType>varchar(200)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="12" name="meaning_kr">
+      <Position>4</Position>
+      <Comment>한글 뜻</Comment>
+      <DataType>varchar(200)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="12" name="sentential_type">
+      <Position>5</Position>
+      <Comment>영어문장유형</Comment>
+      <DataType>enum(&apos;declarative&apos;, &apos;exclamatory&apos;, &apos;imperative&apos;, &apos;interrogative&apos;)|0</DataType>
+      <DefaultExpression>&apos;declarative&apos;</DefaultExpression>
+    </column>
+    <column id="89" parent="12" name="sentence_no">
+      <Position>6</Position>
+      <Comment>영어 문장 단어 번호</Comment>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="90" parent="12" name="image">
+      <Position>7</Position>
+      <Comment>이미지파일명</Comment>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="91" parent="12" name="viewcount">
+      <Position>8</Position>
+      <Comment>뷰카운트</Comment>
+      <DataType>int(5) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="92" parent="12" name="regdate">
+      <Position>9</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="93" parent="12" name="daylevel">
+      <ColNames>daylevel</ColNames>
+    </index>
+    <index id="94" parent="12" name="sentence">
+      <ColNames>sentence</ColNames>
+    </index>
+    <index id="95" parent="12" name="sentential_type">
+      <ColNames>sentential_type</ColNames>
+    </index>
+    <key id="96" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="97" parent="13" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="98" parent="13" name="esidx">
+      <Position>2</Position>
+      <Comment>englishsentence idx</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="13" name="memberidx">
+      <Position>3</Position>
+      <Comment>member idx</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="100" parent="13" name="regdate">
+      <Position>4</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="101" parent="13" name="esidx">
+      <ColNames>esidx</ColNames>
+    </index>
+    <index id="102" parent="13" name="esidx_memberidx">
+      <ColNames>esidx
+memberidx</ColNames>
+    </index>
+    <index id="103" parent="13" name="memberidx">
+      <ColNames>memberidx</ColNames>
+    </index>
+    <key id="104" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="105" parent="14" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(2) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="106" parent="14" name="vocaidx">
+      <Position>2</Position>
+      <Comment>단어 번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="14" name="memberidx">
+      <Position>3</Position>
+      <Comment>회원 번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="108" parent="14" name="regdate">
+      <Position>4</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="109" parent="14" name="memberidx">
+      <ColNames>memberidx
+vocaidx</ColNames>
+    </index>
+    <key id="110" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="111" parent="15" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="112" parent="15" name="mean">
+      <Position>2</Position>
+      <Comment>장르명</Comment>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="113" parent="15" name="mean_en">
+      <Position>3</Position>
+      <Comment>장르명 영어</Comment>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="114" parent="15" name="vocacount">
+      <Position>4</Position>
+      <Comment>단어수</Comment>
+      <DataType>int(11)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="115" parent="15" name="regdate">
+      <Position>5</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <key id="116" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="117" parent="16" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="118" parent="16" name="genreidx">
+      <Position>2</Position>
+      <Comment>tbl_genre idx</Comment>
+      <DataType>int(3) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="16" name="title">
+      <Position>3</Position>
+      <Comment>타이틀</Comment>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="16" name="desp">
+      <Position>4</Position>
+      <Comment>설명</Comment>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="121" parent="16" name="vocacount">
+      <Position>5</Position>
+      <Comment>단어 갯수</Comment>
+      <DataType>int(5)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="122" parent="16" name="image">
+      <Position>6</Position>
+      <Comment>이미지</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="123" parent="16" name="movielink">
+      <Position>7</Position>
+      <Comment>동영상링크</Comment>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <column id="124" parent="16" name="regdate">
+      <Position>8</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="125" parent="16" name="title">
+      <ColNames>title</ColNames>
+    </index>
+    <index id="126" parent="16" name="title_genreidx">
+      <ColNames>title
+genreidx</ColNames>
+    </index>
+    <key id="127" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="128" parent="17" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="129" parent="17" name="genreidx">
+      <Position>2</Position>
+      <Comment>tbl_genre idx</Comment>
+      <DataType>int(3) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="130" parent="17" name="genretitleidx">
+      <Position>3</Position>
+      <Comment>tbl_genreinfo idx</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="131" parent="17" name="vocaidx">
+      <Position>4</Position>
+      <Comment>tbl_voca idx</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="132" parent="17" name="voca">
+      <Position>5</Position>
+      <Comment>tbl_voca voca</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="133" parent="17" name="regdate">
+      <Position>6</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="134" parent="17" name="genreidx">
+      <ColNames>genreidx
+genretitleidx
+vocaidx</ColNames>
+    </index>
+    <index id="135" parent="17" name="genretitleidx">
+      <ColNames>genretitleidx
+vocaidx</ColNames>
+    </index>
+    <index id="136" parent="17" name="genrevoca">
+      <ColNames>voca</ColNames>
+    </index>
+    <key id="137" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="138" parent="18" name="idx">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="139" parent="18" name="memberidx">
+      <Position>2</Position>
+      <Comment>회원번호</Comment>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="140" parent="18" name="genreinfoidx">
+      <Position>3</Position>
+      <Comment>장르정보 idx</Comment>
+      <DataType>int(2)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="141" parent="18" name="partno">
+      <Position>4</Position>
+      <Comment>genrevoca part번호</Comment>
+      <DataType>int(3)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="142" parent="18" name="voca">
+      <Position>5</Position>
+      <Comment>단어</Comment>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <column id="143" parent="18" name="regdate">
+      <Position>6</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="144" parent="18" name="genreinfo">
+      <ColNames>memberidx
+genreinfoidx</ColNames>
+    </index>
+    <index id="145" parent="18" name="regdate">
+      <ColNames>memberidx
+regdate
+idx</ColNames>
+    </index>
+    <key id="146" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="147" parent="19" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(2) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="148" parent="19" name="mean">
+      <Position>2</Position>
+      <Comment>이름</Comment>
+      <DataType>varchar(30)|0</DataType>
+    </column>
+    <column id="149" parent="19" name="vocacount">
+      <Position>3</Position>
+      <Comment>단어수</Comment>
+      <DataType>int(5)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="150" parent="19" name="voca">
+      <Position>4</Position>
+      <Comment>단어</Comment>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="151" parent="19" name="regdate">
+      <Position>5</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <key id="152" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="153" parent="20" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="154" parent="20" name="hanja">
+      <Position>2</Position>
+      <Comment>한자</Comment>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="155" parent="20" name="mean">
+      <Position>3</Position>
+      <Comment>뜻</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="156" parent="20" name="sound">
+      <Position>4</Position>
+      <Comment>음</Comment>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="157" parent="20" name="simplified">
+      <Position>5</Position>
+      <Comment>간체자</Comment>
+      <DataType>varchar(6)|0</DataType>
+    </column>
+    <column id="158" parent="20" name="level">
+      <Position>6</Position>
+      <Comment>급수</Comment>
+      <DataType>varchar(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="159" parent="20" name="regdate">
+      <Position>7</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="160" parent="20" name="hanja">
+      <ColNames>hanja</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="161" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="162" parent="20" name="hanja">
+      <ColNames>hanja</ColNames>
+      <UnderlyingIndexName>hanja</UnderlyingIndexName>
+    </key>
+    <column id="163" parent="21" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="164" parent="21" name="idiom_han">
+      <Position>2</Position>
+      <Comment>사자성어 한자</Comment>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="165" parent="21" name="explanation">
+      <Position>3</Position>
+      <Comment>한자 풀이</Comment>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <column id="166" parent="21" name="idiom_kr">
+      <Position>4</Position>
+      <Comment>사자성어 한글</Comment>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="167" parent="21" name="meaning_kr">
+      <Position>5</Position>
+      <Comment>사자성어 뜻풀이 한글</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="168" parent="21" name="meaning_en">
+      <Position>6</Position>
+      <Comment>사자성어 뜻풀이 영어</Comment>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="169" parent="21" name="originate">
+      <Position>7</Position>
+      <Comment>유래</Comment>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="170" parent="21" name="viewcnt">
+      <Position>8</Position>
+      <Comment>뷰카운트</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="171" parent="21" name="vocalen">
+      <Position>9</Position>
+      <Comment>단어길이</Comment>
+      <DataType>tinyint(2) unsigned|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="172" parent="21" name="deleteflg">
+      <Position>10</Position>
+      <Comment>삭제flg</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="173" parent="21" name="regdate">
+      <Position>11</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="174" parent="21" name="deleteflg">
+      <ColNames>idx
+deleteflg</ColNames>
+    </index>
+    <index id="175" parent="21" name="idiom_kr">
+      <ColNames>idiom_kr</ColNames>
+    </index>
+    <key id="176" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="177" parent="22" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="178" parent="22" name="idiomidx">
+      <Position>2</Position>
+      <Comment>사자성어 번호</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="179" parent="22" name="memberidx">
+      <Position>3</Position>
+      <Comment>회원 번호</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="180" parent="22" name="regdate">
+      <Position>4</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="181" parent="22" name="member_idx">
+      <ColNames>memberidx</ColNames>
+    </index>
+    <key id="182" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="183" parent="23" name="idx">
+      <Position>1</Position>
+      <Comment>로그 번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="184" parent="23" name="memberidx">
+      <Position>2</Position>
+      <Comment>회원번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="185" parent="23" name="memberid">
+      <Position>3</Position>
+      <Comment>회원아이디</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="186" parent="23" name="idiomstartno">
+      <Position>4</Position>
+      <Comment>사자성어 시작번호</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="187" parent="23" name="idiomendno">
+      <Position>5</Position>
+      <Comment>사자성어 끝번호</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="188" parent="23" name="idiomcount">
+      <Position>6</Position>
+      <Comment>사자성어 취득갯수</Comment>
+      <DataType>int(5)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="189" parent="23" name="regdate">
+      <Position>7</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <key id="190" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="191" parent="24" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(2) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="192" parent="24" name="prime_lnum">
+      <Position>2</Position>
+      <DataType>int(10)|0</DataType>
+    </column>
+    <column id="193" parent="24" name="lang_name">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="194" parent="24" name="regdate">
+      <Position>4</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="195" parent="24" name="prime_lnum">
+      <ColNames>prime_lnum</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="196" parent="24" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="197" parent="24" name="prime_lnum">
+      <ColNames>prime_lnum</ColNames>
+      <UnderlyingIndexName>prime_lnum</UnderlyingIndexName>
+    </key>
+    <column id="198" parent="25" name="idx">
+      <Position>1</Position>
+      <Comment>회원 번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="199" parent="25" name="memberid">
+      <Position>2</Position>
+      <Comment>회원아이디</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="200" parent="25" name="password">
+      <Position>3</Position>
+      <Comment>비밀번호</Comment>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="201" parent="25" name="nickname">
+      <Position>4</Position>
+      <Comment>회원닉네임</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="202" parent="25" name="name">
+      <Position>5</Position>
+      <Comment>회원이름</Comment>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="203" parent="25" name="birth">
+      <Position>6</Position>
+      <Comment>회원생년월일</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="204" parent="25" name="email">
+      <Position>7</Position>
+      <Comment>회원이메일</Comment>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="205" parent="25" name="favorite">
+      <Position>8</Position>
+      <Comment>회원관심사항</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="206" parent="25" name="lang">
+      <Position>9</Position>
+      <Comment>회원언어</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="207" parent="25" name="emoticon">
+      <Position>10</Position>
+      <Comment>회원이미지</Comment>
+      <DataType>int(2)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="208" parent="25" name="memberlevel">
+      <Position>11</Position>
+      <Comment>회원레벨</Comment>
+      <DataType>int(2)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="209" parent="25" name="point">
+      <Position>12</Position>
+      <Comment>포인트</Comment>
+      <DataType>int(11)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="210" parent="25" name="apikey">
+      <Position>13</Position>
+      <Comment>api키</Comment>
+      <DataType>varchar(30)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="211" parent="25" name="chargeflg">
+      <Position>14</Position>
+      <Comment>유료회원</Comment>
+      <DataType>int(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="212" parent="25" name="deleteflg">
+      <Position>15</Position>
+      <Comment>탈퇴여부</Comment>
+      <DataType>int(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="213" parent="25" name="webappflg">
+      <Position>16</Position>
+      <Comment>웹앱플래그</Comment>
+      <DataType>int(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="214" parent="25" name="deletedate">
+      <Position>17</Position>
+      <Comment>삭제일</Comment>
+      <DataType>datetime|0</DataType>
+      <DefaultExpression>&apos;1970-01-01 01:00:01&apos;</DefaultExpression>
+    </column>
+    <column id="215" parent="25" name="moddate">
+      <Position>18</Position>
+      <Comment>수정일</Comment>
+      <DataType>datetime|0</DataType>
+      <DefaultExpression>&apos;1970-01-01 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="216" parent="25" name="regdate">
+      <Position>19</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="217" parent="25" name="api">
+      <ColNames>apikey</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="218" parent="25" name="memberid">
+      <ColNames>memberid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="219" parent="25" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="220" parent="25" name="memberid">
+      <ColNames>memberid</ColNames>
+      <UnderlyingIndexName>memberid</UnderlyingIndexName>
+    </key>
+    <key id="221" parent="25" name="api">
+      <ColNames>apikey</ColNames>
+      <UnderlyingIndexName>api</UnderlyingIndexName>
+    </key>
+    <column id="222" parent="26" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="223" parent="26" name="title">
+      <Position>2</Position>
+      <Comment>타이틀</Comment>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="224" parent="26" name="content">
+      <Position>3</Position>
+      <Comment>본문</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="225" parent="26" name="memberidx">
+      <Position>4</Position>
+      <Comment>회원번호</Comment>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="226" parent="26" name="memberid">
+      <Position>5</Position>
+      <Comment>회원아이디</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="227" parent="26" name="nickname">
+      <Position>6</Position>
+      <Comment>회원닉네임</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="228" parent="26" name="password">
+      <Position>7</Position>
+      <Comment>비밀글 비밀번호</Comment>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="229" parent="26" name="viewcnt">
+      <Position>8</Position>
+      <Comment>뷰카운트</Comment>
+      <DataType>int(10)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="230" parent="26" name="replycount">
+      <Position>9</Position>
+      <Comment>댓글카운트</Comment>
+      <DataType>int(10)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="231" parent="26" name="deleteflg">
+      <Position>10</Position>
+      <Comment>삭제 플러그</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="232" parent="26" name="deletedate">
+      <Position>11</Position>
+      <Comment>삭제 날짜</Comment>
+      <DataType>datetime|0</DataType>
+      <DefaultExpression>&apos;1970-01-01 01:00:01&apos;</DefaultExpression>
+    </column>
+    <column id="233" parent="26" name="regdate">
+      <Position>12</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <key id="234" parent="26" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="235" parent="27" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="236" parent="27" name="wordnet_no">
+      <Position>2</Position>
+      <Comment>워드넷 번호</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;000000&apos;</DefaultExpression>
+    </column>
+    <column id="237" parent="27" name="sentence_no">
+      <Position>3</Position>
+      <Comment>예문 번호</Comment>
+      <DataType>int(8) unsigned zerofill|0</DataType>
+      <DefaultExpression>&apos;00000000&apos;</DefaultExpression>
+    </column>
+    <column id="238" parent="27" name="jap">
+      <Position>4</Position>
+      <Comment>일본어, 가타카나, 한자 와 히라가나</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="239" parent="27" name="korean_reading">
+      <Position>5</Position>
+      <Comment>훈독 (일본고유어)</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="240" parent="27" name="sound_reading">
+      <Position>6</Position>
+      <Comment>음독 (한자음)</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="241" parent="27" name="kanji">
+      <Position>7</Position>
+      <Comment>일본한자</Comment>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="242" parent="27" name="kor">
+      <Position>8</Position>
+      <Comment>한글</Comment>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <column id="243" parent="27" name="eng">
+      <Position>9</Position>
+      <Comment>영어</Comment>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <column id="244" parent="27" name="korean_text">
+      <Position>10</Position>
+      <Comment>한글표기</Comment>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="245" parent="27" name="is_jlpt">
+      <Position>11</Position>
+      <Comment>JLPT 시험</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="246" parent="27" name="parts">
+      <Position>12</Position>
+      <Comment>품사</Comment>
+      <DataType>enum(&apos;a&apos;, &apos;r&apos;, &apos;n&apos;, &apos;v&apos;)|0</DataType>
+    </column>
+    <column id="247" parent="27" name="imagename">
+      <Position>13</Position>
+      <Comment>이미지명</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="248" parent="27" name="regdate">
+      <Position>14</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="249" parent="27" name="isJlpt">
+      <ColNames>is_jlpt</ColNames>
+    </index>
+    <index id="250" parent="27" name="jap">
+      <ColNames>jap</ColNames>
+    </index>
+    <index id="251" parent="27" name="wordnet_no_sentence_no">
+      <ColNames>wordnet_no
+sentence_no</ColNames>
+    </index>
+    <key id="252" parent="27" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="253" parent="28" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="254" parent="28" name="sentence_no">
+      <Position>2</Position>
+      <Comment>sentence 번호</Comment>
+      <DataType>int(8) unsigned zerofill|0</DataType>
+      <DefaultExpression>&apos;00000000&apos;</DefaultExpression>
+    </column>
+    <column id="255" parent="28" name="lang">
+      <Position>3</Position>
+      <Comment>언어</Comment>
+      <DataType>enum(&apos;en&apos;, &apos;jp&apos;, &apos;kr&apos;)|0</DataType>
+    </column>
+    <column id="256" parent="28" name="define">
+      <Position>4</Position>
+      <Comment>정의</Comment>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="257" parent="28" name="regdate">
+      <Position>5</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="258" parent="28" name="sentence_no_lang">
+      <ColNames>sentence_no
+lang</ColNames>
+    </index>
+    <key id="259" parent="28" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="260" parent="29" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="261" parent="29" name="sentence_no">
+      <Position>2</Position>
+      <Comment>예문 번호</Comment>
+      <DataType>int(8) unsigned zerofill|0</DataType>
+      <DefaultExpression>&apos;00000000&apos;</DefaultExpression>
+    </column>
+    <column id="262" parent="29" name="lang">
+      <Position>3</Position>
+      <Comment>언어</Comment>
+      <DataType>enum(&apos;en&apos;, &apos;jp&apos;, &apos;kr&apos;)|0</DataType>
+    </column>
+    <column id="263" parent="29" name="sentence">
+      <Position>4</Position>
+      <Comment>예문</Comment>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="264" parent="29" name="regdate">
+      <Position>5</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="265" parent="29" name="sentence_no_lang">
+      <ColNames>sentence_no
+lang</ColNames>
+    </index>
+    <key id="266" parent="29" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="267" parent="30" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="268" parent="30" name="wordnet_no">
+      <Position>2</Position>
+      <Comment>워드넷 번호</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="269" parent="30" name="sentence_no">
+      <Position>3</Position>
+      <Comment>예문 번호</Comment>
+      <DataType>int(8) unsigned zerofill|0</DataType>
+      <DefaultExpression>&apos;00000000&apos;</DefaultExpression>
+    </column>
+    <column id="270" parent="30" name="regdate">
+      <Position>4</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="271" parent="30" name="wordnet_no_sentence_no">
+      <ColNames>wordnet_no
+sentence_no</ColNames>
+    </index>
+    <key id="272" parent="30" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="273" parent="31" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="274" parent="31" name="title">
+      <Position>2</Position>
+      <Comment>타이틀</Comment>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="275" parent="31" name="content">
+      <Position>3</Position>
+      <Comment>본문</Comment>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="276" parent="31" name="eventflg">
+      <Position>4</Position>
+      <Comment>이벤트플래그(0:공지,1:이벤트)</Comment>
+      <DataType>int(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="277" parent="31" name="imagepath">
+      <Position>5</Position>
+      <Comment>이미지 경로</Comment>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <column id="278" parent="31" name="viewcnt">
+      <Position>6</Position>
+      <Comment>뷰카운트</Comment>
+      <DataType>int(10)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="279" parent="31" name="regdate">
+      <Position>7</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="280" parent="31" name="deleteflg">
+      <Position>8</Position>
+      <Comment>삭제 플래그</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="281" parent="31" name="deletedate">
+      <Position>9</Position>
+      <Comment>삭제날짜</Comment>
+      <DataType>datetime|0</DataType>
+      <DefaultExpression>&apos;1970-01-01 01:00:01&apos;</DefaultExpression>
+    </column>
+    <index id="282" parent="31" name="deleteflg">
+      <ColNames>idx
+deleteflg</ColNames>
+    </index>
+    <key id="283" parent="31" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="284" parent="32" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="285" parent="32" name="bbsno">
+      <Position>2</Position>
+      <Comment>게시판번호</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="286" parent="32" name="memberidx">
+      <Position>3</Position>
+      <Comment>회원번호</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="287" parent="32" name="memberid">
+      <Position>4</Position>
+      <Comment>회원아이디</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="288" parent="32" name="content">
+      <Position>5</Position>
+      <Comment>댓글내용</Comment>
+      <DataType>varchar(1000)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="289" parent="32" name="regdate">
+      <Position>6</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="290" parent="32" name="bbsno">
+      <ColNames>bbsno
+memberidx</ColNames>
+    </index>
+    <key id="291" parent="32" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="292" parent="33" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="293" parent="33" name="memberidx">
+      <Position>2</Position>
+      <Comment>회원번호</Comment>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="294" parent="33" name="score">
+      <Position>3</Position>
+      <Comment>총점</Comment>
+      <DataType>int(10)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="295" parent="33" name="average">
+      <Position>4</Position>
+      <Comment>평균</Comment>
+      <DataType>decimal(8,5)|0</DataType>
+      <DefaultExpression>&apos;0.00000&apos;</DefaultExpression>
+    </column>
+    <column id="296" parent="33" name="matched">
+      <Position>5</Position>
+      <Comment>맞춘 갯수</Comment>
+      <DataType>int(10)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="297" parent="33" name="wrong">
+      <Position>6</Position>
+      <Comment>틀린 갯수</Comment>
+      <DataType>int(10)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="298" parent="33" name="rank">
+      <Position>7</Position>
+      <Comment>랭킹번호</Comment>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="299" parent="33" name="moddate">
+      <Position>8</Position>
+      <Comment>수정일</Comment>
+      <DataType>datetime|0</DataType>
+      <DefaultExpression>&apos;1970-01-01 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="300" parent="33" name="regdate">
+      <Position>9</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="301" parent="33" name="memberidx">
+      <ColNames>memberidx</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="302" parent="33" name="rank">
+      <ColNames>rank</ColNames>
+    </index>
+    <index id="303" parent="33" name="score">
+      <ColNames>score
+average</ColNames>
+    </index>
+    <key id="304" parent="33" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="305" parent="33" name="memberidx">
+      <ColNames>memberidx</ColNames>
+      <UnderlyingIndexName>memberidx</UnderlyingIndexName>
+    </key>
+    <column id="306" parent="34" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="307" parent="34" name="memberidx">
+      <Position>2</Position>
+      <Comment>회원번호</Comment>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="308" parent="34" name="total">
+      <Position>3</Position>
+      <Comment>전체 갯수</Comment>
+      <DataType>int(10)|0</DataType>
+    </column>
+    <column id="309" parent="34" name="matched">
+      <Position>4</Position>
+      <Comment>맞춘 갯수</Comment>
+      <DataType>int(10)|0</DataType>
+    </column>
+    <column id="310" parent="34" name="wrong">
+      <Position>5</Position>
+      <Comment>틀린 갯수</Comment>
+      <DataType>int(10)|0</DataType>
+    </column>
+    <column id="311" parent="34" name="regdate">
+      <Position>6</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="312" parent="34" name="regdate">
+      <ColNames>memberidx
+regdate</ColNames>
+    </index>
+    <key id="313" parent="34" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="314" parent="35" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="315" parent="35" name="memberidx">
+      <Position>2</Position>
+      <Comment>회원번호</Comment>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="316" parent="35" name="total">
+      <Position>3</Position>
+      <Comment>전체 갯수</Comment>
+      <DataType>int(10)|0</DataType>
+    </column>
+    <column id="317" parent="35" name="matched">
+      <Position>4</Position>
+      <Comment>맞춘 갯수</Comment>
+      <DataType>int(10)|0</DataType>
+    </column>
+    <column id="318" parent="35" name="wrong">
+      <Position>5</Position>
+      <Comment>틀린 갯수</Comment>
+      <DataType>int(10)|0</DataType>
+    </column>
+    <column id="319" parent="35" name="voca">
+      <Position>6</Position>
+      <Comment>사용한 단어들</Comment>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="320" parent="35" name="regdate">
+      <Position>7</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="321" parent="35" name="regdate">
+      <ColNames>memberidx
+regdate</ColNames>
+    </index>
+    <key id="322" parent="35" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="323" parent="36" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="324" parent="36" name="voca">
+      <Position>2</Position>
+      <Comment>단어</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="325" parent="36" name="regdate">
+      <Position>3</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="326" parent="36" name="voca">
+      <ColNames>voca</ColNames>
+    </index>
+    <key id="327" parent="36" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="328" parent="37" name="idx">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="329" parent="37" name="memberidx">
+      <Position>2</Position>
+      <Comment>회원번호</Comment>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="330" parent="37" name="voca">
+      <Position>3</Position>
+      <Comment>단어</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="331" parent="37" name="content">
+      <Position>4</Position>
+      <Comment>내용</Comment>
+      <DataType>varchar(1000)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="332" parent="37" name="regdate">
+      <Position>5</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="333" parent="37" name="memberidx">
+      <ColNames>memberidx
+idx</ColNames>
+    </index>
+    <key id="334" parent="37" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="335" parent="38" name="idx">
+      <Position>1</Position>
+      <Comment>단어 번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="336" parent="38" name="voca">
+      <Position>2</Position>
+      <Comment>단어</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="337" parent="38" name="sample_sentence">
+      <Position>3</Position>
+      <Comment>예문</Comment>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="338" parent="38" name="regdate">
+      <Position>4</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="339" parent="38" name="voca">
+      <ColNames>voca</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="340" parent="38" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="341" parent="38" name="voca">
+      <ColNames>voca</ColNames>
+      <UnderlyingIndexName>voca</UnderlyingIndexName>
+    </key>
+    <column id="342" parent="39" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="343" parent="39" name="memberidx">
+      <Position>2</Position>
+      <Comment>회원번호</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="344" parent="39" name="tts">
+      <Position>3</Position>
+      <Comment>TTS설정</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="345" parent="39" name="regdate">
+      <Position>4</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <key id="346" parent="39" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="347" parent="40" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="348" parent="40" name="tel">
+      <Position>2</Position>
+      <Comment>전화번호</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="349" parent="40" name="regdate">
+      <Position>3</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="350" parent="40" name="tel">
+      <ColNames>tel</ColNames>
+    </index>
+    <key id="351" parent="40" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="352" parent="41" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="353" parent="41" name="tablename">
+      <Position>2</Position>
+      <Comment>테이블이름</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="354" parent="41" name="updatedate">
+      <Position>3</Position>
+      <Comment>업데이트일</Comment>
+      <DataType>datetime|0</DataType>
+      <DefaultExpression>&apos;1970-01-01 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="355" parent="41" name="regdate">
+      <Position>4</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="356" parent="41" name="updatedate">
+      <ColNames>updatedate</ColNames>
+    </index>
+    <key id="357" parent="41" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="358" parent="42" name="idx">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="359" parent="42" name="memberidx">
+      <Position>2</Position>
+      <Comment>회원번호</Comment>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="360" parent="42" name="voca">
+      <Position>3</Position>
+      <Comment>단어</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="361" parent="42" name="question">
+      <Position>4</Position>
+      <Comment>질문</Comment>
+      <DataType>varchar(500)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="362" parent="42" name="question_en">
+      <Position>5</Position>
+      <Comment>질문 eng</Comment>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="363" parent="42" name="vocalen">
+      <Position>6</Position>
+      <Comment>단어 길이</Comment>
+      <DataType>int(2)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="364" parent="42" name="regdate">
+      <Position>7</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="365" parent="42" name="memberidx">
+      <ColNames>memberidx</ColNames>
+    </index>
+    <key id="366" parent="42" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="367" parent="43" name="idx">
+      <Position>1</Position>
+      <Comment>단어 번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="368" parent="43" name="voca">
+      <Position>2</Position>
+      <Comment>단어</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="369" parent="43" name="pronounce">
+      <Position>3</Position>
+      <Comment>발음기호</Comment>
+      <DataType>varchar(60)|0</DataType>
+    </column>
+    <column id="370" parent="43" name="meaning_ko">
+      <Position>4</Position>
+      <Comment>한국뜻</Comment>
+      <DataType>varchar(1000)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="371" parent="43" name="meaning_en">
+      <Position>5</Position>
+      <Comment>영어뜻</Comment>
+      <DataType>varchar(1000)|0</DataType>
+    </column>
+    <column id="372" parent="43" name="sample_sentence">
+      <Position>6</Position>
+      <Comment>예문</Comment>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="373" parent="43" name="imagepath">
+      <Position>7</Position>
+      <Comment>이미지 경로</Comment>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <column id="374" parent="43" name="soundpath">
+      <Position>8</Position>
+      <Comment>사운드 경로</Comment>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <column id="375" parent="43" name="vocalen">
+      <Position>9</Position>
+      <Comment>단어길이</Comment>
+      <DataType>int(2)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="376" parent="43" name="isvoca">
+      <Position>10</Position>
+      <Comment>단어여부</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="377" parent="43" name="isidiom">
+      <Position>11</Position>
+      <Comment>숙어</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="378" parent="43" name="openflg">
+      <Position>12</Position>
+      <Comment>오픈플래그</Comment>
+      <DataType>int(1)|0</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="379" parent="43" name="viewcnt">
+      <Position>13</Position>
+      <Comment>조회수</Comment>
+      <DataType>int(11)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="380" parent="43" name="wordclass">
+      <Position>14</Position>
+      <Comment>품사</Comment>
+      <DataType>enum(&apos;i&apos;, &apos;pron&apos;, &apos;v&apos;, &apos;n&apos;, &apos;ad&apos;, &apos;prep&apos;, &apos;conj&apos;, &apos;adj&apos;)|0</DataType>
+    </column>
+    <column id="381" parent="43" name="category">
+      <Position>15</Position>
+      <Comment>카테고리번호</Comment>
+      <DataType>int(5)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="382" parent="43" name="grade">
+      <Position>16</Position>
+      <Comment>등급번호</Comment>
+      <DataType>int(5)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="383" parent="43" name="grade_1">
+      <Position>17</Position>
+      <Comment>등급1</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="384" parent="43" name="grade_2">
+      <Position>18</Position>
+      <Comment>등급2</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="385" parent="43" name="grade_3">
+      <Position>19</Position>
+      <Comment>등급3</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="386" parent="43" name="grade_4">
+      <Position>20</Position>
+      <Comment>등급4</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="387" parent="43" name="grade_5">
+      <Position>21</Position>
+      <Comment>등급5</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="388" parent="43" name="grade_6">
+      <Position>22</Position>
+      <Comment>등급6</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="389" parent="43" name="grade_7">
+      <Position>23</Position>
+      <Comment>등급7</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="390" parent="43" name="grade_8">
+      <Position>24</Position>
+      <Comment>등급8</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="391" parent="43" name="grade_9">
+      <Position>25</Position>
+      <Comment>등급9</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="392" parent="43" name="grade_10">
+      <Position>26</Position>
+      <Comment>등급10</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="393" parent="43" name="grade_11">
+      <Position>27</Position>
+      <Comment>등급11</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="394" parent="43" name="grade_12">
+      <Position>28</Position>
+      <Comment>등급12</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="395" parent="43" name="grade_13">
+      <Position>29</Position>
+      <Comment>등급13</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="396" parent="43" name="grade_14">
+      <Position>30</Position>
+      <Comment>등급14</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="397" parent="43" name="grade_15">
+      <Position>31</Position>
+      <Comment>등급15</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="398" parent="43" name="category_1">
+      <Position>32</Position>
+      <Comment>카테고리1</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="399" parent="43" name="category_2">
+      <Position>33</Position>
+      <Comment>카테고리2</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="400" parent="43" name="category_3">
+      <Position>34</Position>
+      <Comment>카테고리3</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="401" parent="43" name="category_4">
+      <Position>35</Position>
+      <Comment>카테고리4</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="402" parent="43" name="category_5">
+      <Position>36</Position>
+      <Comment>카테고리5</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="403" parent="43" name="category_6">
+      <Position>37</Position>
+      <Comment>카테고리6</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="404" parent="43" name="category_7">
+      <Position>38</Position>
+      <Comment>카테고리7</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="405" parent="43" name="category_8">
+      <Position>39</Position>
+      <Comment>카테고리8</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="406" parent="43" name="category_9">
+      <Position>40</Position>
+      <Comment>카테고리9</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="407" parent="43" name="category_10">
+      <Position>41</Position>
+      <Comment>카테고리10</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="408" parent="43" name="category_11">
+      <Position>42</Position>
+      <Comment>카테고리11</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="409" parent="43" name="category_12">
+      <Position>43</Position>
+      <Comment>카테고리12</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="410" parent="43" name="category_13">
+      <Position>44</Position>
+      <Comment>카테고리13</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="411" parent="43" name="category_14">
+      <Position>45</Position>
+      <Comment>카테고리14</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="412" parent="43" name="category_15">
+      <Position>46</Position>
+      <Comment>카테고리15</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="413" parent="43" name="category_16">
+      <Position>47</Position>
+      <Comment>카테고리16</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="414" parent="43" name="category_17">
+      <Position>48</Position>
+      <Comment>카테고리17 법률</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="415" parent="43" name="regdate">
+      <Position>49</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="416" parent="43" name="category_grade">
+      <ColNames>category
+grade</ColNames>
+    </index>
+    <index id="417" parent="43" name="grade_14">
+      <ColNames>grade_14</ColNames>
+    </index>
+    <index id="418" parent="43" name="grade_15">
+      <ColNames>grade_15</ColNames>
+    </index>
+    <index id="419" parent="43" name="voca">
+      <ColNames>voca</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="420" parent="43" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="421" parent="43" name="voca">
+      <ColNames>voca</ColNames>
+      <UnderlyingIndexName>voca</UnderlyingIndexName>
+    </key>
+    <column id="422" parent="44" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="423" parent="44" name="voca">
+      <Position>2</Position>
+      <Comment>단어</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="424" parent="44" name="categoryno">
+      <Position>3</Position>
+      <Comment>category 번호</Comment>
+      <DataType>tinyint(2)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="425" parent="44" name="regdate">
+      <Position>4</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="426" parent="44" name="categoryno">
+      <ColNames>categoryno</ColNames>
+    </index>
+    <index id="427" parent="44" name="voca">
+      <ColNames>voca</ColNames>
+    </index>
+    <index id="428" parent="44" name="voca_categoryno">
+      <ColNames>voca
+categoryno</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="429" parent="44" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="430" parent="44" name="voca_categoryno">
+      <ColNames>voca
+categoryno</ColNames>
+      <UnderlyingIndexName>voca_categoryno</UnderlyingIndexName>
+    </key>
+    <column id="431" parent="45" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="432" parent="45" name="voca">
+      <Position>2</Position>
+      <Comment>단어</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="433" parent="45" name="gradeno">
+      <Position>3</Position>
+      <Comment>grade 번호</Comment>
+      <DataType>tinyint(2)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="434" parent="45" name="regdate">
+      <Position>4</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="435" parent="45" name="gradeno">
+      <ColNames>gradeno</ColNames>
+    </index>
+    <index id="436" parent="45" name="voca">
+      <ColNames>voca</ColNames>
+    </index>
+    <index id="437" parent="45" name="voca_gradeno">
+      <ColNames>voca
+gradeno</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="438" parent="45" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="439" parent="45" name="voca_gradeno">
+      <ColNames>voca
+gradeno</ColNames>
+      <UnderlyingIndexName>voca_gradeno</UnderlyingIndexName>
+    </key>
+    <column id="440" parent="46" name="idx">
+      <Position>1</Position>
+      <Comment>단어 번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="441" parent="46" name="voca">
+      <Position>2</Position>
+      <Comment>단어</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="442" parent="46" name="voca">
+      <ColNames>voca</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="443" parent="46" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="444" parent="46" name="voca">
+      <ColNames>voca</ColNames>
+      <UnderlyingIndexName>voca</UnderlyingIndexName>
+    </key>
+    <column id="445" parent="47" name="idx">
+      <Position>1</Position>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="446" parent="47" name="memberidx">
+      <Position>2</Position>
+      <Comment>회원번호</Comment>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="447" parent="47" name="gradeidx">
+      <Position>3</Position>
+      <Comment>등급번호</Comment>
+      <DataType>int(2)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="448" parent="47" name="categoryidx">
+      <Position>4</Position>
+      <Comment>카테고리번호</Comment>
+      <DataType>int(2)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="449" parent="47" name="partno">
+      <Position>5</Position>
+      <Comment>part번호</Comment>
+      <DataType>int(3)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="450" parent="47" name="voca">
+      <Position>6</Position>
+      <Comment>단어</Comment>
+      <DataType>varchar(500)|0</DataType>
+    </column>
+    <column id="451" parent="47" name="hitflg">
+      <Position>7</Position>
+      <DataType>tinyint(1)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="452" parent="47" name="regdate">
+      <Position>8</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="453" parent="47" name="categoryidx">
+      <ColNames>memberidx
+categoryidx</ColNames>
+    </index>
+    <index id="454" parent="47" name="gradeidx">
+      <ColNames>memberidx
+gradeidx</ColNames>
+    </index>
+    <index id="455" parent="47" name="regdate">
+      <ColNames>memberidx
+regdate
+idx</ColNames>
+    </index>
+    <key id="456" parent="47" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="457" parent="48" name="idx">
+      <Position>1</Position>
+      <Comment>번호</Comment>
+      <DataType>int(11) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="458" parent="48" name="memberidx">
+      <Position>2</Position>
+      <Comment>회원번호</Comment>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="459" parent="48" name="voca">
+      <Position>3</Position>
+      <Comment>단어</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="460" parent="48" name="regdate">
+      <Position>4</Position>
+      <Comment>등록일</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <index id="461" parent="48" name="memberidx">
+      <ColNames>memberidx
+voca</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="462" parent="48" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idx</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="463" parent="48" name="memberidx">
+      <ColNames>memberidx
+voca</ColNames>
+      <UnderlyingIndexName>memberidx</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
