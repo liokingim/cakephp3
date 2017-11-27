@@ -54,7 +54,7 @@ class UsersController extends AppController
   public function beforeFilter(Event $event)
   {
     parent::beforeFilter($event);
-    $this->Auth->allow(['index', 'login']);
+    $this->Auth->allow(['index', 'login', 'add', 'viewForm', 'viewSession', 'viewText', 'viewTime', 'viewUrl']);
     $this->set('Auth', $this->Auth);
 //    $this->Security->setConfig('unlockedActions', ['edit']);
 /*    if ($this->request->getParam('admin')) {
@@ -248,4 +248,37 @@ class UsersController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
+
+  public function viewForm()
+  {
+    $user = $this->Users->newEntity();
+    $this->set(compact('user'));
+    $this->set('_serialize', ['user']);
+  }
+
+  public function viewSession()
+  {
+    $session = $this->request->getSession();
+    $session->write('Member.name', 'HongGilDong');
+    $session->write('Member.email', 'hong_gildong@cakephp.org');
+    debug($session->read());
+  }
+
+  public function viewText()
+  {
+    $user = $this->Users->newEntity();
+    $this->set(compact('user'));
+    $this->set('_serialize', ['user']);
+  }
+
+  public function viewTime($id = null)
+  {
+    $user = $this->Users->get($id);
+    $this->set(compact('user'));
+    $this->set('_serialize', ['user']);
+  }
+
+  public function viewUrl()
+  {
+  }
 }
