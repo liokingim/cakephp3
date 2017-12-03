@@ -31,21 +31,34 @@ class ArticlesTable extends Table
      * @param array $config The configuration for the Table.
      * @return void
      */
-    public function initialize(array $config)
-    {
-      parent::initialize($config);
+  public function initialize(array $config)
+  {
+    parent::initialize($config);
 
-      $this->setTable('articles');
-      $this->setDisplayField('title');
-      $this->setPrimaryKey('id');
+    $this->setTable('articles');
+    $this->setDisplayField('title');
+    $this->setPrimaryKey('id');
 
-      $this->addBehavior('Timestamp');
-      $this->addBehavior('Translate', ['fields' => ['title', 'body']]);
-      $this->belongsTo('Users', [
-          'foreignKey' => 'user_id',
-          'joinType' => 'INNER'
-      ]);
-    }
+    $this->addBehavior('Timestamp');
+    $this->addBehavior('Translate', ['fields' => ['title'], 'validator' => 'translated']);
+    $this->belongsTo('Users', [
+        'foreignKey' => 'user_id',
+        'joinType' => 'INNER'
+    ]);
+  }
+
+  public function validationTranslated (Validator $validator)
+  {
+    $validator->scalar('title')
+      ->requirePresence('title', 'create')
+      ->notEmpty('title');
+
+    $validator->scalar('content')
+      ->requirePresence('content', 'create')
+      ->notEmpty('content');
+
+    return $validator;
+  }
 
   public function beforeMarshal(Event $event, ArrayObject $data, ArrayObject $options)
   {

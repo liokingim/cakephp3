@@ -4,6 +4,7 @@ namespace App\Controller;
 use App\Controller\AppController;
 use Cake\Event\Event;
 use Cake\Datasource\Exception\RecordNotFoundException;
+use Cake\I18n\I18n;
 use function debug;
 
 /**
@@ -23,7 +24,7 @@ class ArticlesController extends AppController
   public function beforeFilter(Event $event)
   {
     parent::beforeFilter($event);
-    $this->Auth->allow(['index', 'view']);
+    $this->Auth->allow(['index', 'view', 'saveTrans', 'viewFindTransList', 'viewTrans']);
   }
 
   /**
@@ -42,6 +43,79 @@ class ArticlesController extends AppController
     $user = $this->Auth->user();
     $this->set(compact('articles', 'user'));
     $this->set('_serialize', ['articles']);
+  }
+
+  /**
+   * 3번째 레코드에 해당하는 번역문을 저장
+   */
+  public function saveTrans($lang = null)
+  {
+    $this->autoRender = false;
+    $article = $this->Articles->get(3);
+    debug($article->title);
+
+    if ($lang == "en") {
+      $article->_locale = 'en_US';
+      $article->title = 'Bulgogi and Kimchi stew';
+    } elseif ($lang == "ja") {
+      $article->_locale = 'ja_JP';
+      $article->title = '焼き肉とキムチチゲ';
+    }
+
+    if ($lang == "en" || $lang == "ja") {
+      $this->Articles->save($article);
+    }
+  }
+
+  /**
+   * id에 해당하는 번역문 가져오기
+   */
+  public function viewTrans($id = null, $lang = null)
+  {
+    $this->autoRender = false;
+    if ($id == null || $lang == null) {
+      debug("id나 lang가 없습니다.");
+      return;
+    }
+
+    if ($lang == "en") {
+      I18n::setLocale('en_US');
+    } elseif ($lang == "ja") {
+      I18n::setLocale('ja_JP');
+    }
+
+    try {
+      $article = $this->Articles->get($id);
+      debug($article->_locale);
+      debug($article->title);
+    } catch (RecordNotFoundException $e) {
+      debug("데이터가 없습니다.");
+    }
+  }
+
+  public function viewFindTransList()
+  {
+    $this->autoRender = false;
+    try {
+      $article = $this->Articles->find('translations')->first();
+      echo "en first <br>";
+      echo $article->translation('en_US')->title;
+      echo "ja first <br>";
+      echo $article->translation('ja_JP')->title;
+
+      $this->Articles->locale('en_US');
+      $article2 = $this->Articles->get(3);
+      debug($article2->title);
+
+      $articles = $this->Articles->find('translations')->toList();
+      foreach ($articles as $data) {
+        echo $data->id . $data->title."<br>";
+        echo $data->translation('en_US')->title."<br>";
+        echo $data->translation('ja_JP')->title."<br>";
+      }
+    } catch (RecordNotFoundException $e) {
+      debug("데이터가 없습니다.");
+    }
   }
 
   /**

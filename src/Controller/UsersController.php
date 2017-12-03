@@ -7,6 +7,7 @@ use function debug;
 use function var_dump;
 use Cake\Http\Cookie\Cookie;
 use Cake\Http\Cookie\CookieCollection;
+use Cake\I18n\I18n;
 
 /**
  * Users Controller
@@ -54,7 +55,7 @@ class UsersController extends AppController
   public function beforeFilter(Event $event)
   {
     parent::beforeFilter($event);
-    $this->Auth->allow(['index', 'login', 'add', 'viewForm', 'viewSession', 'viewText', 'viewTime', 'viewUrl']);
+    $this->Auth->allow(['index', 'login', 'add', 'viewForm', 'viewHtml', 'viewNumber', 'viewPaginator', 'viewSession', 'viewText', 'viewTime', 'viewUrl']);
     $this->set('Auth', $this->Auth);
 //    $this->Security->setConfig('unlockedActions', ['edit']);
 /*    if ($this->request->getParam('admin')) {
@@ -254,6 +255,22 @@ class UsersController extends AppController
     $user = $this->Users->newEntity();
     $this->set(compact('user'));
     $this->set('_serialize', ['user']);
+  }
+
+  public function viewHtml()
+  {
+  }
+
+  public function viewNumber()
+  {
+  }
+
+  public function viewPaginator()
+  {
+    I18n::setLocale('en_US');
+    $users = $this->paginate($this->Users);
+    $this->set(compact('users'));
+    $this->set('_serialize', ['users']);
   }
 
   public function viewSession()

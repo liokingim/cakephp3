@@ -26,6 +26,13 @@
     </ul>
 </nav>
 <div class="articles view large-10 medium-8 columns content">
+  <?php
+  $this->Breadcrumbs->add([
+    ['title' => 'Articles', 'url' => ['controller' => 'articles', 'action' => 'index']],
+    ['title' => 'Articles view', 'url' => ['controller' => 'articles', 'action' => 'view']],
+  ]);
+  echo $this->Breadcrumbs->render(['class' => 'breadcrumbs']);
+  ?>
     <h3><?= h($article->title) ?></h3>
     <table class="vertical-table">
         <tr>

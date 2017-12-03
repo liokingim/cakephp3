@@ -38,6 +38,7 @@ class AppView extends View
   public function initialize()
   {
     parent::initialize();
+    $this->loadHelper('Breadcrumbs');
     $this->loadHelper('Rss');
     $this->loadHelper('Paginator');
     $this->loadHelper('Text');

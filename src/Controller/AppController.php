@@ -49,6 +49,7 @@ class AppController extends Controller
     $this->loadComponent('Flash');
 //    $this->loadComponent('Security');
     $this->loadComponent('Cookie');
+    $this->loadComponent('Paginator');
     $this->loadComponent('Auth',
                           [
                           'authorize', ['Controller'],

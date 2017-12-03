@@ -29,7 +29,6 @@
     <div class="container clearfix">
         <?= $this->fetch('content') ?>
     </div>
-    <footer>layout default footer
-    </footer>
+    <footer>layout default footer</footer>
 </body>
 </html>

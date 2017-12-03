@@ -17,14 +17,21 @@
     </ul>
 </nav>
 <div class="articles form large-10 medium-8 columns content">
-    <?= $this->Form->create($article) ?>
+    <?php
+    $this->Breadcrumbs->add([
+      ['title' => 'Articles', 'url' => ['controller' => 'articles', 'action' => 'index']],
+      ['title' => 'Articles edit', 'url' => ['controller' => 'articles', 'action' => 'edit']],
+    ]);
+    echo $this->Breadcrumbs->render(['class' => 'breadcrumbs']);
+    ?>
     <fieldset>
-        <legend><?= __('소개글 수정') ?></legend>
-        <?php
-            echo $this->Form->control('title', ['label' => '타이틀']);
-            echo $this->Form->control('content', ['label' => '내용']);
-        ?>
+      <legend><?= __('소개글 수정') ?></legend>
+      <?= $this->Form->create($article) ?>
+      <?php
+          echo $this->Form->control('title', ['label' => '타이틀']);
+          echo $this->Form->control('content', ['label' => '내용']);
+      ?>
+      <?= $this->Form->button(__('수정완료')) ?>
+      <?= $this->Form->end() ?>
     </fieldset>
-    <?= $this->Form->button(__('수정완료')) ?>
-    <?= $this->Form->end() ?>
 </div>

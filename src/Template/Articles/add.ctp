@@ -11,9 +11,15 @@
     </ul>
 </nav>
 <div class="articles form large-10 medium-8 columns content">
+  <?php
+  $this->Breadcrumbs->add([
+    ['title' => 'Articles', 'url' => ['controller' => 'articles', 'action' => 'index']],
+    ['title' => 'Articles add', 'url' => ['controller' => 'articles', 'action' => 'add']],
+  ]);
+  echo $this->Breadcrumbs->render(['class' => 'breadcrumbs']);
+  ?>
     <?= $this->Form->create($article) ?>
     <fieldset>
-        <legend><?= __('소개글 작성') ?></legend>
         <?php
             echo $this->Form->control('user_id', ['label' => '작성자',  'type' => 'hidden', 'id' => 'user_id', 'value' => $user_id]);
             echo $this->Form->control('title', ['label' => '타이틀']);

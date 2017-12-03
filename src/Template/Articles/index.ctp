@@ -6,9 +6,9 @@
 ?>
 <nav class="large-2 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
-      <li class="heading"><?= __('액션') ?></li>
-      <li><?= $this->Html->link(__('소개글 작성'), ['action' => 'add']) ?></li>
-      <li><?= $this->Html->link(__('유저 목록'), ['controller' => 'Users', 'action' => 'index']) ?></li>
+      <li class="heading"><?= __('Actions') ?></li>
+      <li><?= $this->Html->link(__('New Article'), ['action' => 'add']) ?></li>
+      <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?></li>
       <li>
         <?php
         if(isset($user)) {
@@ -27,29 +27,32 @@
             <tr>
                 <th scope="col"><?= $this->Paginator->sort('id') ?></th>
                 <th scope="col"><?= h("작성자") ?></th>
-                <th scope="col"><?= h("타이틀") ?></th>
-                <th scope="col"><?= h("작성일") ?></th>
-                <th scope="col" class="actions"><?= __('액션') ?></th>
+                <th scope="col"><?= __("Title") ?></th>
+                <th scope="col"><?= __("Created") ?></th>
+                <th scope="col" class="actions"><?= __('Actions') ?></th>
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($articles as $article): ?>
-            <tr>
-                <td><?= $this->Number->format($article->id) ?></td>
-                <td><?= h($article->user->name) ?></td>
-                <td><?= h($article->title) ?></td>
-                <td><?= h($article->created) ?></td>
-                <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $article->id]) ?>
-                    <?php
+          <?php
+          $this->Breadcrumbs->add('Articles', ['controller' => 'articles', 'action' => 'index']);
+          echo $this->Breadcrumbs->render(['class' => 'breadcrumbs']);
+          ?>
+          <?php foreach ($articles as $article): ?>
+          <tr>
+              <td><?= $this->Number->format($article->id) ?></td>
+              <td><?= h($article->user->name) ?></td>
+              <td><?= h($article->title) ?></td>
+              <td><?= h($article->created) ?></td>
+              <td class="actions">
+                  <?= $this->Html->link(__('View'), ['action' => 'view', $article->id]) ?>
+                  <?php
+                  if ($user['id'] == $article->user->id) {
                     echo $this->Form->postLink(__('Delete'), ['action' => 'delete', $article->id], ['confirm' => __('정말 삭제하시겠습니까 # {0}?', $article->id)]);
-                    if ($user['id'] == $article->user->id) {
-                      //echo $this->Form->postLink(__('Delete'), ['action' => 'delete', $article->id], ['confirm' => __('정말 삭제하시겠습니까 # {0}?', $article->id)]);
-                    }
-                    ?>
-                </td>
-            </tr>
-            <?php endforeach; ?>
+                  }
+                  ?>
+              </td>
+          </tr>
+          <?php endforeach; ?>
         </tbody>
     </table>
     <div class="paginator">
