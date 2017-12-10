@@ -47,3 +47,5 @@ ALTER TABLE `users`
 ALTER TABLE `users`
 	ADD COLUMN `digest_hash` VARCHAR(100) NULL DEFAULT NULL COMMENT 'digest_hash' AFTER `api_key`;
 
+ALTER TABLE `users`
+	ADD COLUMN `articles_count` (5) UNSIGNED NOT NULL AFTER `digest_hash`;

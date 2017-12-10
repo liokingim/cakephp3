@@ -39,7 +39,15 @@ class ArticlesTable extends Table
     $this->setDisplayField('title');
     $this->setPrimaryKey('id');
 
-    $this->addBehavior('Timestamp');
+//    $this->addBehavior('Timestamp');
+    $this->addBehavior('Timestamp', [
+      'events' => [
+        'Model.beforeSave' => [
+          'created' => 'new',
+          'modified' => 'existing',
+        ]
+      ]
+    ]);
     $this->addBehavior('Translate', ['fields' => ['title'], 'validator' => 'translated']);
     $this->belongsTo('Users', [
         'foreignKey' => 'user_id',

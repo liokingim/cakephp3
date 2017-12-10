@@ -5,6 +5,7 @@ use App\Controller\AppController;
 use Cake\Event\Event;
 use Cake\Datasource\Exception\RecordNotFoundException;
 use Cake\I18n\I18n;
+use Cake\ORM\TableRegistry;
 use function debug;
 
 /**
@@ -143,12 +144,23 @@ class ArticlesController extends AppController
      */
     public function add()
     {
+      $usersTable = TableRegistry::get('Users');
       $article = $this->Articles->newEntity();
       if ($this->request->is('post')) {
           $article = $this->Articles->patchEntity($article, $this->request->getData());
           if ($this->Articles->save($article)) {
-              $this->Flash->success(__('소개글을 저장하였습니다.'));
-              return $this->redirect(['action' => 'index']);
+            // get Articles count
+            $articles_count = $this->Articles->find('all', [
+              'conditions' => ['Articles.user_id' => $this->Auth->user('id')]
+            ])->count();
+
+            // save users table
+            $user = $usersTable->get($this->Auth->user('id'));
+            $user->articles_count = $articles_count;
+            $usersTable->save($user);
+
+            $this->Flash->success(__('소개글을 저장하였습니다.'));
+            return $this->redirect(['action' => 'index']);
           }
           $this->Flash->error(__('소개글 저장을 실패하였습니다. 다시 시도해주세요.'));
       }

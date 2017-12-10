@@ -28,22 +28,30 @@ use function debug;
 class UsersTable extends Table
 {
 
-    /**
-     * Initialize method
-     *
-     * @param array $config The configuration for the Table.
-     * @return void
-     */
-    public function initialize(array $config)
-    {
-        parent::initialize($config);
+  /**
+   * Initialize method
+   *
+   * @param array $config The configuration for the Table.
+   * @return void
+   */
+  public function initialize(array $config)
+  {
+    parent::initialize($config);
 
-        $this->setTable('users');
-        $this->setDisplayField('name');
-        $this->setPrimaryKey('id');
+    $this->setTable('users');
+    $this->setDisplayField('name');
+    $this->setPrimaryKey('id');
 
-        $this->addBehavior('Timestamp');
-    }
+//      $this->addBehavior('Timestamp');
+    $this->addBehavior('Timestamp', [
+      'events' => [
+        'Model.beforeSave' => [
+          'created' => 'new',
+          'modified' => 'existing'
+        ]
+      ]
+    ]);
+  }
 
   public function beforeMarshal(Event $event, ArrayObject $data, ArrayObject $options)
   {

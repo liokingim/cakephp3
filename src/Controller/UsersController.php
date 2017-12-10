@@ -252,7 +252,15 @@ class UsersController extends AppController
 
   public function viewForm()
   {
+    I18n::setLocale('en_US');
     $user = $this->Users->newEntity();
+/*    if ($this->request->is('post')) {
+      $user = $this->Users->patchEntity($user, $this->request->getData());
+      if ($this->Users->save($user)) {
+        $this->Flash->success(__('user is saved.'));
+      }
+      $this->Flash->error(__('user save failed'));
+    }*/
     $this->set(compact('user'));
     $this->set('_serialize', ['user']);
   }

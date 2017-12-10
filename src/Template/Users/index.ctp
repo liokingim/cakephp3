@@ -24,6 +24,7 @@
       <th scope="col"><?= $this->Paginator->sort('email', "이메일") ?></th>
       <th scope="col"><?= $this->Paginator->sort('name',"이름") ?></th>
       <th scope="col"><?= h("전화번호") ?></th>
+      <th scope="col"><?= h("소개글수") ?></th>
       <th scope="col"><?= h("생성일") ?></th>
       <th scope="col"><?= h("변경일") ?></th>
       <th scope="col" class="actions"><?= __('액션') ?></th>
@@ -36,6 +37,7 @@
         <td><?= h($user->email) ?></td>
         <td><?= h($user->name) ?></td>
         <td><?= h($user->phone) ?></td>
+        <td><?= $this->Number->format($user->articles_count) ?></td>
         <td><?= $this->Time->i18nFormat($user->created, 'YYYY-MM-dd HH:mm:ss') ?></td>
         <td><?= $this->Time->i18nFormat($user->modified, 'YYYY-MM-dd HH:mm:ss') ?></td>
         <td class="actions">
