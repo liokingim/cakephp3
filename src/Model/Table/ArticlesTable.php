@@ -44,14 +44,26 @@ class ArticlesTable extends Table
       'events' => [
         'Model.beforeSave' => [
           'created' => 'new',
-          'modified' => 'existing',
+          'modified' => 'always',
+        ],
+        'Users.completed' => [
+          'Users.modified' => 'always'
         ]
       ]
     ]);
     $this->addBehavior('Translate', ['fields' => ['title'], 'validator' => 'translated']);
+
     $this->belongsTo('Users', [
         'foreignKey' => 'user_id',
         'joinType' => 'INNER'
+    ]);
+
+//    $this->addBehavior('CounterCache', ['Users' => ['articles_count']]);
+    $this->addBehavior('CounterCache', ['Users' => [
+        'articles_count' => [
+          'conditions' => ['Articles.isdelete' => false]
+        ]
+      ]
     ]);
   }
 

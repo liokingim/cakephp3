@@ -64,6 +64,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/tblnihon/*', ['controller' => 'TblNihon', 'action' => 'index']);
 
   $routes->connect('/users/login/:admin', ['controller' => 'Users', 'action' => 'login']);
+  $routes->connect('/categories/move-categories/:id/:move', ['controller' => 'categories', 'action' => 'moveCategories'], ['id' => '\d+']);
     /**
      * Connect catchall routes for all controllers.
      *

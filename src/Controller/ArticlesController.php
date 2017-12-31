@@ -36,9 +36,10 @@ class ArticlesController extends AppController
   public function index()
   {
     $this->paginate = [
-        'contain' => ['Users'],
-        'order' => ['id' => 'desc'],
-        'limit' => 10
+      'contain' => ['Users'],
+      'conditions' => array('isdelete' => false),
+      'order' => ['id' => 'desc'],
+      'limit' => 10
     ];
     $articles = $this->paginate($this->Articles);
     $user = $this->Auth->user();
@@ -151,14 +152,14 @@ class ArticlesController extends AppController
           if ($this->Articles->save($article)) {
             // get Articles count
             $articles_count = $this->Articles->find('all', [
-              'conditions' => ['Articles.user_id' => $this->Auth->user('id')]
+              'conditions' => ['Articles.user_id' => $this->Auth->user('id'),
+                                'Articles.isdelete' => true]
             ])->count();
 
             // save users table
             $user = $usersTable->get($this->Auth->user('id'));
             $user->articles_count = $articles_count;
             $usersTable->save($user);
-
             $this->Flash->success(__('소개글을 저장하였습니다.'));
             return $this->redirect(['action' => 'index']);
           }
@@ -197,29 +198,35 @@ class ArticlesController extends AppController
         $this->set('_serialize', ['article']);
     }
 
-    /**
-     * Delete method
-     *
-     * @param string|null $id Article id.
-     * @return \Cake\Http\Response|null Redirects to index.
-     * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
-     */
-    public function delete($id = null)
-    {
-      $this->request->allowMethod(['post', 'delete']);
-      try {
-        $article = $this->Articles->get($id);
-        $user_id = $this->Auth->user()['id'];
-        if ($user_id == $article['user_id']) {
-          if ($this->Articles->delete($article)) {
-            $this->Flash->success(__('소개글을 삭제하였습니다.'));
-          } else {
-            $this->Flash->error(__('소개글 삭제를 실패하였습니다. 다시 시도해주세요.'));
-          }
+  /**
+   * Delete method
+   *
+   * @param string|null $id Article id.
+   * @return \Cake\Http\Response|null Redirects to index.
+   * @throws \Cake\Datasource\Exception\RecordNotFoundException When record not found.
+   */
+  public function delete($id = null)
+  {
+    $this->request->allowMethod(['post', 'delete']);
+    try {
+      $article = $this->Articles->get($id);
+      $user_id = $this->Auth->user()['id'];
+      if ($user_id == $article['user_id']) {
+        $article->isdelete = true;
+        if ($this->Articles->save($article)) {
+          $this->Flash->success(__('소개글을 삭제하였습니다.'));
+        } else {
+          $this->Flash->error(__('소개글 삭제를 실패하였습니다. 다시 시도해주세요.'));
         }
-      } catch (RecordNotFoundException $e) {
-        //
+/*          if ($this->Articles->delete($article)) {
+          $this->Flash->success(__('소개글을 삭제하였습니다.'));
+        } else {
+          $this->Flash->error(__('소개글 삭제를 실패하였습니다. 다시 시도해주세요.'));
+        }*/
       }
-      return $this->redirect(['action' => 'index']);
+    } catch (RecordNotFoundException $e) {
+      // 에러 조건을 추가합니다.
     }
+    return $this->redirect(['action' => 'index']);
+  }
 }
