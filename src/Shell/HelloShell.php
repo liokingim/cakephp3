@@ -15,6 +15,12 @@ class HelloShell extends Shell
   public function showName($name = 'Adam')
   {
     $this->out('My Name is ' . $name . ".");
+    $this->dispatchShell([
+      'command' => ['user', 'saveUser', '116'],
+      'extra' => [
+        'param' => '116'
+      ]
+    ]);
   }
 
   public function showJob($job = 'Cook')
@@ -32,31 +38,34 @@ class HelloShell extends Shell
 
   public function showOut()
   {
-//    $this->out('Normal message');
-//    $this->err('Error message');
-//    $this->abort('Fatal error');
-//    $this->verbose('Verbose message');
-//    $this->quiet('Quiet message');
-//    $this->out($this->nl(2));
-//    $this->clear();
-//    $this->hr();
-/*    $this->out('Counting down:');
+    $this->out('Normal message');
+    $this->err('Error message');
+    $this->abort('Fatal error');
+    $this->verbose('Verbose message');
+    $this->quiet('Quiet message');
+
+    $this->out($this->nl(2));
+    $this->clear();
+    $this->hr();
+
+    $this->out('Counting down:');
     $this->out('5', 0);
     for ($i = 5; $i > 0; $i--) {
       sleep(1);
       $this->_io->overwrite($i, 0, 2);
-    }*/
-/*    $data = ['name' => "pooh",
+    }
+
+    $data = ['name' => "pooh",
             'userid' => "10000",
             'location'=> "newyork",
             'tel' => "010-0123-3210"];
-    $this->createFile('c:\xampp\htdocs\cakephp3\logs\shell.json', json_encode($data));*/
+    $this->createFile('c:\xampp\htdocs\cakephp3\logs\shell.json', json_encode($data));
 
-/*    $this->out('Quiet message', 1, Shell::QUIET);
+    $this->out('Quiet message', 1, Shell::QUIET);
     $this->quiet('Quiet message');
     $this->out('normal message', 1, Shell::NORMAL);
     $this->out('Verbose message', 1, Shell::VERBOSE);
-    $this->verbose('Verbose message');*/
+    $this->verbose('Verbose message');
 
     $this->_io->setOutputAs(ConsoleOutput::RAW);
     $this->_io->styles('flashy', ['text' => 'magenta', 'blink' => true]);
