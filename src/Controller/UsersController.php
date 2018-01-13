@@ -182,9 +182,16 @@ class UsersController extends AppController
      */
     public function view($id = null)
     {
+      $this->loadModel('Articles');
+      $recentArticles = $this->Articles->find()
+                        ->where(['user_id' => $id])
+                        ->order(['Articles.created' => 'DESC'])
+                        ->limit(5);
       $user = $this->Users->get($id, ['contain' => []]);
       $this->set('user', $user);
       $this->set('_serialize', ['user']);
+      $this->set('articles', $recentArticles);
+      $this->set('articleCount', $recentArticles->count());
     }
 
   /**

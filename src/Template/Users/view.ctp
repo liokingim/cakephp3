@@ -45,4 +45,33 @@
           <td><?= $user->status ? __('사용') : __('탈퇴'); ?></td>
       </tr>
     </table>
+
+  <h3><?= __('Articles') ?> (<?= $this->Number->format($articleCount) ?>)</h3>
+  <?php if ($articleCount) { ?>
+  <table cellpadding="0" cellspacing="0">
+    <thead>
+    <tr>
+      <th scope="col"><?= h('id') ?></th>
+      <th scope="col"><?= h("title") ?></th>
+      <th scope="col"><?= h("created") ?></th>
+      <th scope="col" class="actions"><?= __('Action') ?></th>
+    </tr>
+    </thead>
+    <tbody>
+    <?php foreach ($articles as $article): ?>
+      <tr>
+        <td><?= $this->Number->format($article->id) ?></td>
+        <td><?= h($article->title) ?></td>
+        <td><?= $this->Time->i18nFormat($article->created, 'YYYY-MM-dd HH:mm:ss') ?></td>
+        <td class="actions">
+          <?= $this->Html->link(__('View'), ['controller' => 'articles', 'action' => 'view', $article->id]) ?>
+          <?= $this->Html->link(__('Edit'), ['controller' => 'articles', 'action' => 'edit', $article->id]) ?>
+        </td>
+      </tr>
+    <?php endforeach; ?>
+    </tbody>
+  </table>
+  <?php } else { ?>
+소개글이 없습니다.
+  <?php } ?>
 </div>

@@ -19,7 +19,6 @@ use Cake\Error\Middleware\ErrorHandlerMiddleware;
 use Cake\Http\BaseApplication;
 use Cake\Routing\Middleware\AssetMiddleware;
 use Cake\Routing\Middleware\RoutingMiddleware;
-use Cake\Http\Middleware\EncryptedCookieMiddleware;
 
 /**
  * Application setup class.
@@ -29,32 +28,31 @@ use Cake\Http\Middleware\EncryptedCookieMiddleware;
  */
 class Application extends BaseApplication
 {
-  /**
-   * Setup the middleware queue your application will use.
-   *
-   * @param \Cake\Http\MiddlewareQueue $middlewareQueue The middleware queue to setup.
-   * @return \Cake\Http\MiddlewareQueue The updated middleware queue.
-   */
-  public function middleware($middlewareQueue)
+    /**
+     * Setup the middleware queue your application will use.
+     *
+     * @param \Cake\Http\MiddlewareQueue $middlewareQueue The middleware queue to setup.
+     * @return \Cake\Http\MiddlewareQueue The updated middleware queue.
+     */
+    public function middleware($middlewareQueue)
+    {
+        $middlewareQueue
+            // Catch any exceptions in the lower layers,
+            // and make an error page/response
+            ->add(ErrorHandlerMiddleware::class)
+
+            // Handle plugin/theme assets like CakePHP normally does.
+            ->add(AssetMiddleware::class)
+
+            // Add routing middleware.
+            ->add(new RoutingMiddleware($this));
+
+        return $middlewareQueue;
+    }
+
+/*  public function console($commands)
   {
-    $middlewareQueue
-      // Catch any exceptions in the lower layers,
-      // and make an error page/response
-      ->add(ErrorHandlerMiddleware::class)
-
-      // Handle plugin/theme assets like CakePHP normally does.
-      ->add(AssetMiddleware::class)
-
-      // Add routing middleware.
-      ->add(new RoutingMiddleware($this));
-
-    $cookies = new EncryptedCookieMiddleware(
-      ['secrets', 'protected'],
-      Configure::read('Security.cookieKey')
-    );
-
-    $middlewareQueue->add($cookies);
-
-    return $middlewareQueue;
-  }
+    $commands->add('user', UserShell::class);
+    return $commands;
+  }*/
 }
