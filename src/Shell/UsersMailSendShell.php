@@ -56,4 +56,16 @@ class UsersMailSendShell extends Shell
 
     return $ret;
   }
+
+  public function getOptionParser()
+  {
+    $parser = parent::getOptionParser();
+    $parser->setDescription("Send User Mail Shell.")
+            ->addArguments([
+              'users' => ['help' => 'bin\cake users_mail_send', 'require' => false],
+            ])->addOptions([
+              'db' => ['short' => 'd', 'help' => '[Disable] Call UsersTask Class.', 'default' => 'd']
+            ])->setEpilog('Please use it conveniently!!');
+    return $parser;
+  }
 }
