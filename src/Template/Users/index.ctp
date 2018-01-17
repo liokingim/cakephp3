@@ -3,6 +3,7 @@
     <li class="heading"><?= __('Actions') ?></li>
     <li><?= $this->Html->link(__('유저 추가'), ['action' => 'add']) ?></li>
     <li><?= $this->Html->link(__('소개글 목록'), ['controller' => 'Articles', 'action' => 'index']) ?></li>
+    <li><?= $this->Html->link(__('카테고리 목록'), ['controller' => 'Categories', 'action' => 'index']) ?></li>
     <li>
       <?php
       if($this->request->session()->read('Auth')) {
