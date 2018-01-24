@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for C:\xampp\htdocs\cakephp3\src/Shell</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/nv.d3.min.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../js/html5shiv.min.js"></script>
+  <script src="../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">C:\xampp\htdocs\cakephp3\src</a></li>
+        <li><a href="index.html">Shell</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Task/UsersTask.php.html#7">UsersTask</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task/FileInfoTask.php.html#8">FileInfoTask</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserEnterShell.php.html#6">UserEnterShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserShell.php.html#9">UserShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersMailSendShell.php.html#8">UsersMailSendShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendMailShell.php.html#7">SendMailShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueueShell.php.html#7">QueueShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelloShell.php.html#8">HelloShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileInfoShell.php.html#6">FileInfoShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelloWorldShell.php.html#6">HelloWorldShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MultiShell.php.html#6">MultiShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ParserHelpShell.php.html#6">ParserHelpShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConsoleShell.php.html#25">ConsoleShell</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="UsersMailSendShell.php.html#8">UsersMailSendShell</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="UserShell.php.html#9">UserShell</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="HelloShell.php.html#8">HelloShell</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="UserEnterShell.php.html#6">UserEnterShell</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Task/FileInfoTask.php.html#8">FileInfoTask</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ConsoleShell.php.html#25">ConsoleShell</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="MultiShell.php.html#6">MultiShell</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="UserEnterShell.php.html#8"><abbr title="UserEnterShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserShell.php.html#13"><abbr title="UserShell::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task/UsersTask.php.html#14"><abbr title="UsersTask::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task/UsersTask.php.html#9"><abbr title="UsersTask::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Task/FileInfoTask.php.html#10"><abbr title="FileInfoTask::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserShell.php.html#21"><abbr title="UserShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UserShell.php.html#26"><abbr title="UserShell::saveUser">saveUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersMailSendShell.php.html#60"><abbr title="UsersMailSendShell::getOptionParser">getOptionParser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersMailSendShell.php.html#44"><abbr title="UsersMailSendShell::sendMail">sendMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersMailSendShell.php.html#20"><abbr title="UsersMailSendShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UsersMailSendShell.php.html#14"><abbr title="UsersMailSendShell::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="SendMailShell.php.html#9"><abbr title="SendMailShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueueShell.php.html#18"><abbr title="QueueShell::getOptionParser">getOptionParser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelloShell.php.html#15"><abbr title="HelloShell::showName">showName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelloShell.php.html#26"><abbr title="HelloShell::showJob">showJob</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelloShell.php.html#10"><abbr title="HelloShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="FileInfoShell.php.html#10"><abbr title="FileInfoShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConsoleShell.php.html#67"><abbr title="ConsoleShell::getOptionParser">getOptionParser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelloShell.php.html#39"><abbr title="HelloShell::showOut">showOut</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="HelloWorldShell.php.html#8"><abbr title="HelloWorldShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="QueueShell.php.html#11"><abbr title="QueueShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ParserHelpShell.php.html#12"><abbr title="ParserHelpShell::getOptionParser">getOptionParser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ParserHelpShell.php.html#8"><abbr title="ParserHelpShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="MultiShell.php.html#8"><abbr title="MultiShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ConsoleShell.php.html#33"><abbr title="ConsoleShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="UserEnterShell.php.html#8"><abbr title="UserEnterShell::main">main</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="UserShell.php.html#26"><abbr title="UserShell::saveUser">saveUser</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="UsersMailSendShell.php.html#20"><abbr title="UsersMailSendShell::main">main</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Task/FileInfoTask.php.html#10"><abbr title="FileInfoTask::main">main</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="UsersMailSendShell.php.html#44"><abbr title="UsersMailSendShell::sendMail">sendMail</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="HelloShell.php.html#39"><abbr title="HelloShell::showOut">showOut</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="MultiShell.php.html#8"><abbr title="MultiShell::main">main</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ConsoleShell.php.html#33"><abbr title="ConsoleShell::main">main</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 4.0.8</a> using <a href="https://secure.php.net/" target="_top">PHP 5.6.31</a> with <a href="https://xdebug.org/">Xdebug 2.2.5</a> and <a href="https://phpunit.de/">PHPUnit 5.7.26</a> at Wed Jan 24 17:44:55 UTC 2018.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../js/holder.min.js" type="text/javascript"></script>
+  <script src="../js/d3.min.js" type="text/javascript"></script>
+  <script src="../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([13,0,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([25,0,0,0,0,0,0,0,0,0,0,0], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"ConsoleShell.php.html#25\">ConsoleShell<\/a>"],[0,1,"<a href=\"FileInfoShell.php.html#6\">FileInfoShell<\/a>"],[0,5,"<a href=\"HelloShell.php.html#8\">HelloShell<\/a>"],[0,1,"<a href=\"HelloWorldShell.php.html#6\">HelloWorldShell<\/a>"],[0,2,"<a href=\"MultiShell.php.html#6\">MultiShell<\/a>"],[0,2,"<a href=\"ParserHelpShell.php.html#6\">ParserHelpShell<\/a>"],[0,2,"<a href=\"QueueShell.php.html#7\">QueueShell<\/a>"],[0,1,"<a href=\"SendMailShell.php.html#7\">SendMailShell<\/a>"],[0,3,"<a href=\"Task\/FileInfoTask.php.html#8\">FileInfoTask<\/a>"],[0,2,"<a href=\"Task\/UsersTask.php.html#7\">UsersTask<\/a>"],[0,4,"<a href=\"UserEnterShell.php.html#6\">UserEnterShell<\/a>"],[0,5,"<a href=\"UserShell.php.html#9\">UserShell<\/a>"],[0,7,"<a href=\"UsersMailSendShell.php.html#8\">UsersMailSendShell<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,2,"<a href=\"ConsoleShell.php.html#33\">ConsoleShell::main<\/a>"],[0,1,"<a href=\"ConsoleShell.php.html#67\">ConsoleShell::getOptionParser<\/a>"],[0,1,"<a href=\"FileInfoShell.php.html#10\">FileInfoShell::main<\/a>"],[0,1,"<a href=\"HelloShell.php.html#10\">HelloShell::main<\/a>"],[0,1,"<a href=\"HelloShell.php.html#15\">HelloShell::showName<\/a>"],[0,1,"<a href=\"HelloShell.php.html#26\">HelloShell::showJob<\/a>"],[0,2,"<a href=\"HelloShell.php.html#39\">HelloShell::showOut<\/a>"],[0,1,"<a href=\"HelloWorldShell.php.html#8\">HelloWorldShell::main<\/a>"],[0,2,"<a href=\"MultiShell.php.html#8\">MultiShell::main<\/a>"],[0,1,"<a href=\"ParserHelpShell.php.html#8\">ParserHelpShell::main<\/a>"],[0,1,"<a href=\"ParserHelpShell.php.html#12\">ParserHelpShell::getOptionParser<\/a>"],[0,1,"<a href=\"QueueShell.php.html#11\">QueueShell::main<\/a>"],[0,1,"<a href=\"QueueShell.php.html#18\">QueueShell::getOptionParser<\/a>"],[0,1,"<a href=\"SendMailShell.php.html#9\">SendMailShell::main<\/a>"],[0,3,"<a href=\"Task\/FileInfoTask.php.html#10\">FileInfoTask::main<\/a>"],[0,1,"<a href=\"Task\/UsersTask.php.html#9\">UsersTask::main<\/a>"],[0,1,"<a href=\"Task\/UsersTask.php.html#14\">UsersTask::getUsers<\/a>"],[0,4,"<a href=\"UserEnterShell.php.html#8\">UserEnterShell::main<\/a>"],[0,1,"<a href=\"UserShell.php.html#13\">UserShell::initialize<\/a>"],[0,1,"<a href=\"UserShell.php.html#21\">UserShell::main<\/a>"],[0,3,"<a href=\"UserShell.php.html#26\">UserShell::saveUser<\/a>"],[0,1,"<a href=\"UsersMailSendShell.php.html#14\">UsersMailSendShell::initialize<\/a>"],[0,3,"<a href=\"UsersMailSendShell.php.html#20\">UsersMailSendShell::main<\/a>"],[0,2,"<a href=\"UsersMailSendShell.php.html#44\">UsersMailSendShell::sendMail<\/a>"],[0,1,"<a href=\"UsersMailSendShell.php.html#60\">UsersMailSendShell::getOptionParser<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

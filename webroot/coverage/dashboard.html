@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for C:\xampp\htdocs\cakephp3\src</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/nv.d3.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="index.html">C:\xampp\htdocs\cakephp3\src</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Shell/QueueShell.php.html#7">QueueShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/SendMailShell.php.html#7">SendMailShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/ParserHelpShell.php.html#6">ParserHelpShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/MultiShell.php.html#6">MultiShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/HelloShell.php.html#8">HelloShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/HelloWorldShell.php.html#6">HelloWorldShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/Task/FileInfoTask.php.html#8">FileInfoTask</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/Task/UsersTask.php.html#7">UsersTask</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/AjaxView.php.html#26">AjaxView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/AppView.php.html#26">AppView</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/UsersMailSendShell.php.html#8">UsersMailSendShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/UserShell.php.html#9">UserShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/UserEnterShell.php.html#6">UserEnterShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/FileInfoShell.php.html#6">FileInfoShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/ConsoleShell.php.html#25">ConsoleShell</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ErrorController.php.html#24">ErrorController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/HomeController.php.html#4">HomeController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CategoriesController.php.html#21">CategoriesController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#18">ArticlesController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Installer.php.html#29">Installer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/AppController.php.html#32">AppController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/LogsController.php.html#10">LogsController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/PagesController.php.html#29">PagesController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Table/CategoriesTable.php.html#25">CategoriesTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Table/ArticlesTable.php.html#25">ArticlesTable</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Entity/User.php.html#20">User</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#29">Application</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#19">UsersController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Table/UsersTable.php.html#28">UsersTable</a></td><td class="text-right">15%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/ArticlesController.php.html#18">ArticlesController</a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#19">UsersController</a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="Console/Installer.php.html#29">Installer</a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="Controller/CategoriesController.php.html#21">CategoriesController</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="Controller/PagesController.php.html#29">PagesController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Shell/UsersMailSendShell.php.html#8">UsersMailSendShell</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Model/Table/ArticlesTable.php.html#25">ArticlesTable</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Model/Table/UsersTable.php.html#28">UsersTable</a></td><td class="text-right">36</td></tr>
+       <tr><td><a href="Shell/UserShell.php.html#9">UserShell</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Shell/HelloShell.php.html#8">HelloShell</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Shell/UserEnterShell.php.html#6">UserEnterShell</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/AppController.php.html#32">AppController</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Shell/ConsoleShell.php.html#25">ConsoleShell</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Shell/Task/FileInfoTask.php.html#8">FileInfoTask</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Shell/MultiShell.php.html#6">MultiShell</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Model/Entity/User.php.html#20">User</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Model/Table/CategoriesTable.php.html#61"><abbr title="CategoriesTable::validationDefault">validationDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Table/CategoriesTable.php.html#82"><abbr title="CategoriesTable::buildRules">buildRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Table/CategoriesTable.php.html#34"><abbr title="CategoriesTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Table/ArticlesTable.php.html#125"><abbr title="ArticlesTable::buildRules">buildRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Table/ArticlesTable.php.html#98"><abbr title="ArticlesTable::validationDefault">validationDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Table/UsersTable.php.html#56"><abbr title="UsersTable::beforeMarshal">beforeMarshal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Table/UsersTable.php.html#93"><abbr title="UsersTable::validationDefault">validationDefault</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/ConsoleShell.php.html#67"><abbr title="ConsoleShell::getOptionParser">getOptionParser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/ConsoleShell.php.html#33"><abbr title="ConsoleShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Table/UsersTable.php.html#184"><abbr title="UsersTable::buildRules">buildRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Table/UsersTable.php.html#139"><abbr title="UsersTable::validationEditUser">validationEditUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Table/ArticlesTable.php.html#83"><abbr title="ArticlesTable::beforeMarshal">beforeMarshal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Table/ArticlesTable.php.html#70"><abbr title="ArticlesTable::validationTranslated">validationTranslated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#283"><abbr title="UsersController::viewPaginator">viewPaginator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#279"><abbr title="UsersController::viewNumber">viewNumber</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#275"><abbr title="UsersController::viewHtml">viewHtml</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#260"><abbr title="UsersController::viewForm">viewForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#291"><abbr title="UsersController::viewSession">viewSession</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#299"><abbr title="UsersController::viewText">viewText</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Table/ArticlesTable.php.html#34"><abbr title="ArticlesTable::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Model/Entity/User.php.html#55"><abbr title="User::_setPassword">_setPassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#313"><abbr title="UsersController::viewUrl">viewUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#306"><abbr title="UsersController::viewTime">viewTime</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/FileInfoShell.php.html#10"><abbr title="FileInfoShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/HelloShell.php.html#10"><abbr title="HelloShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/UserShell.php.html#21"><abbr title="UserShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/UserShell.php.html#26"><abbr title="UserShell::saveUser">saveUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/UserShell.php.html#13"><abbr title="UserShell::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/UserEnterShell.php.html#8"><abbr title="UserEnterShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/Task/UsersTask.php.html#14"><abbr title="UsersTask::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/UsersMailSendShell.php.html#14"><abbr title="UsersMailSendShell::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/UsersMailSendShell.php.html#20"><abbr title="UsersMailSendShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/AppView.php.html#38"><abbr title="AppView::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="View/AjaxView.php.html#43"><abbr title="AjaxView::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/UsersMailSendShell.php.html#60"><abbr title="UsersMailSendShell::getOptionParser">getOptionParser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/UsersMailSendShell.php.html#44"><abbr title="UsersMailSendShell::sendMail">sendMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/Task/UsersTask.php.html#9"><abbr title="UsersTask::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/Task/FileInfoTask.php.html#10"><abbr title="FileInfoTask::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/HelloWorldShell.php.html#8"><abbr title="HelloWorldShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/HelloShell.php.html#39"><abbr title="HelloShell::showOut">showOut</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/HelloShell.php.html#26"><abbr title="HelloShell::showJob">showJob</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/HelloShell.php.html#15"><abbr title="HelloShell::showName">showName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/MultiShell.php.html#8"><abbr title="MultiShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/ParserHelpShell.php.html#8"><abbr title="ParserHelpShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/SendMailShell.php.html#9"><abbr title="SendMailShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/QueueShell.php.html#18"><abbr title="QueueShell::getOptionParser">getOptionParser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/QueueShell.php.html#11"><abbr title="QueueShell::main">main</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Shell/ParserHelpShell.php.html#12"><abbr title="ParserHelpShell::getOptionParser">getOptionParser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#247"><abbr title="UsersController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#225"><abbr title="UsersController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#98"><abbr title="ArticlesController::viewFindTransList">viewFindTransList</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#130"><abbr title="ArticlesController::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#75"><abbr title="ArticlesController::viewTrans">viewTrans</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#53"><abbr title="ArticlesController::saveTrans">saveTrans</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#36"><abbr title="ArticlesController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#146"><abbr title="ArticlesController::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#182"><abbr title="ArticlesController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CategoriesController.php.html#40"><abbr title="CategoriesController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CategoriesController.php.html#29"><abbr title="CategoriesController::beforeFilter">beforeFilter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CategoriesController.php.html#23"><abbr title="CategoriesController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#208"><abbr title="ArticlesController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#25"><abbr title="ArticlesController::beforeFilter">beforeFilter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#20"><abbr title="ArticlesController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Installer.php.html#115"><abbr title="Installer::createWritableDirectories">createWritableDirectories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Installer.php.html#98"><abbr title="Installer::createAppConfig">createAppConfig</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Installer.php.html#153"><abbr title="Installer::anonymous function">anonymous function</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Installer.php.html#53"><abbr title="Installer::postInstall">postInstall</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Installer.php.html#135"><abbr title="Installer::setFolderPermissions">setFolderPermissions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Installer.php.html#180"><abbr title="Installer::setSecuritySalt">setSecuritySalt</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/AppController.php.html#102"><abbr title="AppController::isAuthorized">isAuthorized</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/AppController.php.html#44"><abbr title="AppController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Installer.php.html#226"><abbr title="Installer::setAppNameInFile">setAppNameInFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Installer.php.html#195"><abbr title="Installer::setSecuritySaltInFile">setSecuritySaltInFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CategoriesController.php.html#61"><abbr title="CategoriesController::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CategoriesController.php.html#79"><abbr title="CategoriesController::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#55"><abbr title="UsersController::beforeFilter">beforeFilter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#68"><abbr title="UsersController::forceSSL">forceSSL</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#28"><abbr title="UsersController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/PagesController.php.html#41"><abbr title="PagesController::display">display</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/LogsController.php.html#43"><abbr title="LogsController::monolog">monolog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#73"><abbr title="UsersController::blackhole">blackhole</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#78"><abbr title="UsersController::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#202"><abbr title="UsersController::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#183"><abbr title="UsersController::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#101"><abbr title="UsersController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#91"><abbr title="UsersController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/LogsController.php.html#22"><abbr title="LogsController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/LogsController.php.html#14"><abbr title="LogsController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ErrorController.php.html#31"><abbr title="ErrorController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CategoriesController.php.html#146"><abbr title="CategoriesController::moveCategories">moveCategories</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CategoriesController.php.html#132"><abbr title="CategoriesController::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/CategoriesController.php.html#106"><abbr title="CategoriesController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ErrorController.php.html#42"><abbr title="ErrorController::beforeFilter">beforeFilter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ErrorController.php.html#52"><abbr title="ErrorController::beforeRender">beforeRender</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/HomeController.php.html#23"><abbr title="HomeController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/HomeController.php.html#14"><abbr title="HomeController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/HomeController.php.html#6"><abbr title="HomeController::initialize">initialize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Controller/ErrorController.php.html#65"><abbr title="ErrorController::afterFilter">afterFilter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Application.php.html#37"><abbr title="Application::middleware">middleware</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Controller/PagesController.php.html#41"><abbr title="PagesController::display">display</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Controller/CategoriesController.php.html#146"><abbr title="CategoriesController::moveCategories">moveCategories</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#75"><abbr title="ArticlesController::viewTrans">viewTrans</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Console/Installer.php.html#53"><abbr title="Installer::postInstall">postInstall</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Console/Installer.php.html#135"><abbr title="Installer::setFolderPermissions">setFolderPermissions</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#53"><abbr title="ArticlesController::saveTrans">saveTrans</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Shell/UserEnterShell.php.html#8"><abbr title="UserEnterShell::main">main</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#208"><abbr title="ArticlesController::delete">delete</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Shell/UsersMailSendShell.php.html#20"><abbr title="UsersMailSendShell::main">main</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#225"><abbr title="UsersController::edit">edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#202"><abbr title="UsersController::add">add</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Shell/UserShell.php.html#26"><abbr title="UserShell::saveUser">saveUser</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Model/Table/ArticlesTable.php.html#83"><abbr title="ArticlesTable::beforeMarshal">beforeMarshal</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Shell/Task/FileInfoTask.php.html#10"><abbr title="FileInfoTask::main">main</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Console/Installer.php.html#153"><abbr title="Installer::anonymous function">anonymous function</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Model/Table/UsersTable.php.html#56"><abbr title="UsersTable::beforeMarshal">beforeMarshal</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#78"><abbr title="UsersController::login">login</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Console/Installer.php.html#115"><abbr title="Installer::createWritableDirectories">createWritableDirectories</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#146"><abbr title="ArticlesController::add">add</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#98"><abbr title="ArticlesController::viewFindTransList">viewFindTransList</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Console/Installer.php.html#226"><abbr title="Installer::setAppNameInFile">setAppNameInFile</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/ArticlesController.php.html#182"><abbr title="ArticlesController::edit">edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/CategoriesController.php.html#79"><abbr title="CategoriesController::add">add</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/AppController.php.html#102"><abbr title="AppController::isAuthorized">isAuthorized</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Console/Installer.php.html#195"><abbr title="Installer::setSecuritySaltInFile">setSecuritySaltInFile</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Controller/CategoriesController.php.html#106"><abbr title="CategoriesController::edit">edit</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Shell/UsersMailSendShell.php.html#44"><abbr title="UsersMailSendShell::sendMail">sendMail</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Shell/MultiShell.php.html#8"><abbr title="MultiShell::main">main</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/CategoriesController.php.html#132"><abbr title="CategoriesController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Console/Installer.php.html#98"><abbr title="Installer::createAppConfig">createAppConfig</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Controller/UsersController.php.html#247"><abbr title="UsersController::delete">delete</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Model/Entity/User.php.html#55"><abbr title="User::_setPassword">_setPassword</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Shell/ConsoleShell.php.html#33"><abbr title="ConsoleShell::main">main</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Shell/HelloShell.php.html#39"><abbr title="HelloShell::showOut">showOut</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 4.0.8</a> using <a href="https://secure.php.net/" target="_top">PHP 5.6.31</a> with <a href="https://xdebug.org/">Xdebug 2.2.5</a> and <a href="https://phpunit.de/">PHPUnit 5.7.26</a> at Wed Jan 24 17:44:55 UTC 2018.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/holder.min.js" type="text/javascript"></script>
+  <script src="js/d3.min.js" type="text/javascript"></script>
+  <script src="js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([28,0,1,0,0,0,0,0,0,0,0,3], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([99,0,0,0,0,0,0,0,0,0,0,1], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Application.php.html#29\">Application<\/a>"],[0,25,"<a href=\"Console\/Installer.php.html#29\">Installer<\/a>"],[0,4,"<a href=\"Controller\/AppController.php.html#32\">AppController<\/a>"],[0,28,"<a href=\"Controller\/ArticlesController.php.html#18\">ArticlesController<\/a>"],[0,19,"<a href=\"Controller\/CategoriesController.php.html#21\">CategoriesController<\/a>"],[0,4,"<a href=\"Controller\/ErrorController.php.html#24\">ErrorController<\/a>"],[0,3,"<a href=\"Controller\/HomeController.php.html#4\">HomeController<\/a>"],[0,3,"<a href=\"Controller\/LogsController.php.html#10\">LogsController<\/a>"],[0,8,"<a href=\"Controller\/PagesController.php.html#29\">PagesController<\/a>"],[0,26,"<a href=\"Controller\/UsersController.php.html#19\">UsersController<\/a>"],[100,0,"<a href=\"Model\/Entity\/Article.php.html#19\">Article<\/a>"],[100,0,"<a href=\"Model\/Entity\/Category.php.html#18\">Category<\/a>"],[0,2,"<a href=\"Model\/Entity\/User.php.html#20\">User<\/a>"],[0,7,"<a href=\"Model\/Table\/ArticlesTable.php.html#25\">ArticlesTable<\/a>"],[0,3,"<a href=\"Model\/Table\/CategoriesTable.php.html#25\">CategoriesTable<\/a>"],[15.625,7,"<a href=\"Model\/Table\/UsersTable.php.html#28\">UsersTable<\/a>"],[0,3,"<a href=\"Shell\/ConsoleShell.php.html#25\">ConsoleShell<\/a>"],[0,1,"<a href=\"Shell\/FileInfoShell.php.html#6\">FileInfoShell<\/a>"],[0,5,"<a href=\"Shell\/HelloShell.php.html#8\">HelloShell<\/a>"],[0,1,"<a href=\"Shell\/HelloWorldShell.php.html#6\">HelloWorldShell<\/a>"],[0,2,"<a href=\"Shell\/MultiShell.php.html#6\">MultiShell<\/a>"],[0,2,"<a href=\"Shell\/ParserHelpShell.php.html#6\">ParserHelpShell<\/a>"],[0,2,"<a href=\"Shell\/QueueShell.php.html#7\">QueueShell<\/a>"],[0,1,"<a href=\"Shell\/SendMailShell.php.html#7\">SendMailShell<\/a>"],[0,3,"<a href=\"Shell\/Task\/FileInfoTask.php.html#8\">FileInfoTask<\/a>"],[0,2,"<a href=\"Shell\/Task\/UsersTask.php.html#7\">UsersTask<\/a>"],[0,4,"<a href=\"Shell\/UserEnterShell.php.html#6\">UserEnterShell<\/a>"],[0,5,"<a href=\"Shell\/UserShell.php.html#9\">UserShell<\/a>"],[0,7,"<a href=\"Shell\/UsersMailSendShell.php.html#8\">UsersMailSendShell<\/a>"],[0,1,"<a href=\"View\/AjaxView.php.html#26\">AjaxView<\/a>"],[0,1,"<a href=\"View\/AppView.php.html#26\">AppView<\/a>"],[100,0,"<a href=\"View\/Helper\/CustomersHelper.php.html#10\">CustomersHelper<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Application.php.html#37\">Application::middleware<\/a>"],[0,5,"<a href=\"Console\/Installer.php.html#53\">Installer::postInstall<\/a>"],[0,3,"<a href=\"Console\/Installer.php.html#153\">Installer::anonymous function<\/a>"],[0,2,"<a href=\"Console\/Installer.php.html#98\">Installer::createAppConfig<\/a>"],[0,3,"<a href=\"Console\/Installer.php.html#115\">Installer::createWritableDirectories<\/a>"],[0,5,"<a href=\"Console\/Installer.php.html#135\">Installer::setFolderPermissions<\/a>"],[0,1,"<a href=\"Console\/Installer.php.html#180\">Installer::setSecuritySalt<\/a>"],[0,3,"<a href=\"Console\/Installer.php.html#195\">Installer::setSecuritySaltInFile<\/a>"],[0,3,"<a href=\"Console\/Installer.php.html#226\">Installer::setAppNameInFile<\/a>"],[0,1,"<a href=\"Controller\/AppController.php.html#44\">AppController::initialize<\/a>"],[0,3,"<a href=\"Controller\/AppController.php.html#102\">AppController::isAuthorized<\/a>"],[0,1,"<a href=\"Controller\/ArticlesController.php.html#20\">ArticlesController::initialize<\/a>"],[0,1,"<a href=\"Controller\/ArticlesController.php.html#25\">ArticlesController::beforeFilter<\/a>"],[0,1,"<a href=\"Controller\/ArticlesController.php.html#36\">ArticlesController::index<\/a>"],[0,5,"<a href=\"Controller\/ArticlesController.php.html#53\">ArticlesController::saveTrans<\/a>"],[0,6,"<a href=\"Controller\/ArticlesController.php.html#75\">ArticlesController::viewTrans<\/a>"],[0,3,"<a href=\"Controller\/ArticlesController.php.html#98\">ArticlesController::viewFindTransList<\/a>"],[0,1,"<a href=\"Controller\/ArticlesController.php.html#130\">ArticlesController::view<\/a>"],[0,3,"<a href=\"Controller\/ArticlesController.php.html#146\">ArticlesController::add<\/a>"],[0,3,"<a href=\"Controller\/ArticlesController.php.html#182\">ArticlesController::edit<\/a>"],[0,4,"<a href=\"Controller\/ArticlesController.php.html#208\">ArticlesController::delete<\/a>"],[0,1,"<a href=\"Controller\/CategoriesController.php.html#23\">CategoriesController::initialize<\/a>"],[0,1,"<a href=\"Controller\/CategoriesController.php.html#29\">CategoriesController::beforeFilter<\/a>"],[0,1,"<a href=\"Controller\/CategoriesController.php.html#40\">CategoriesController::index<\/a>"],[0,1,"<a href=\"Controller\/CategoriesController.php.html#61\">CategoriesController::view<\/a>"],[0,3,"<a href=\"Controller\/CategoriesController.php.html#79\">CategoriesController::add<\/a>"],[0,3,"<a href=\"Controller\/CategoriesController.php.html#106\">CategoriesController::edit<\/a>"],[0,2,"<a href=\"Controller\/CategoriesController.php.html#132\">CategoriesController::delete<\/a>"],[0,7,"<a href=\"Controller\/CategoriesController.php.html#146\">CategoriesController::moveCategories<\/a>"],[0,1,"<a href=\"Controller\/ErrorController.php.html#31\">ErrorController::initialize<\/a>"],[0,1,"<a href=\"Controller\/ErrorController.php.html#42\">ErrorController::beforeFilter<\/a>"],[0,1,"<a href=\"Controller\/ErrorController.php.html#52\">ErrorController::beforeRender<\/a>"],[0,1,"<a href=\"Controller\/ErrorController.php.html#65\">ErrorController::afterFilter<\/a>"],[0,1,"<a href=\"Controller\/HomeController.php.html#6\">HomeController::initialize<\/a>"],[0,1,"<a href=\"Controller\/HomeController.php.html#14\">HomeController::index<\/a>"],[0,1,"<a href=\"Controller\/HomeController.php.html#23\">HomeController::edit<\/a>"],[0,1,"<a href=\"Controller\/LogsController.php.html#14\">LogsController::initialize<\/a>"],[0,1,"<a href=\"Controller\/LogsController.php.html#22\">LogsController::index<\/a>"],[0,1,"<a href=\"Controller\/LogsController.php.html#43\">LogsController::monolog<\/a>"],[0,8,"<a href=\"Controller\/PagesController.php.html#41\">PagesController::display<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#28\">UsersController::initialize<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#55\">UsersController::beforeFilter<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#68\">UsersController::forceSSL<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#73\">UsersController::blackhole<\/a>"],[0,3,"<a href=\"Controller\/UsersController.php.html#78\">UsersController::login<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#91\">UsersController::logout<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#101\">UsersController::index<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#183\">UsersController::view<\/a>"],[0,3,"<a href=\"Controller\/UsersController.php.html#202\">UsersController::add<\/a>"],[0,3,"<a href=\"Controller\/UsersController.php.html#225\">UsersController::edit<\/a>"],[0,2,"<a href=\"Controller\/UsersController.php.html#247\">UsersController::delete<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#260\">UsersController::viewForm<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#275\">UsersController::viewHtml<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#279\">UsersController::viewNumber<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#283\">UsersController::viewPaginator<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#291\">UsersController::viewSession<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#299\">UsersController::viewText<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#306\">UsersController::viewTime<\/a>"],[0,1,"<a href=\"Controller\/UsersController.php.html#313\">UsersController::viewUrl<\/a>"],[0,2,"<a href=\"Model\/Entity\/User.php.html#55\">User::_setPassword<\/a>"],[0,1,"<a href=\"Model\/Table\/ArticlesTable.php.html#34\">ArticlesTable::initialize<\/a>"],[0,1,"<a href=\"Model\/Table\/ArticlesTable.php.html#70\">ArticlesTable::validationTranslated<\/a>"],[0,3,"<a href=\"Model\/Table\/ArticlesTable.php.html#83\">ArticlesTable::beforeMarshal<\/a>"],[0,1,"<a href=\"Model\/Table\/ArticlesTable.php.html#98\">ArticlesTable::validationDefault<\/a>"],[0,1,"<a href=\"Model\/Table\/ArticlesTable.php.html#125\">ArticlesTable::buildRules<\/a>"],[0,1,"<a href=\"Model\/Table\/CategoriesTable.php.html#34\">CategoriesTable::initialize<\/a>"],[0,1,"<a href=\"Model\/Table\/CategoriesTable.php.html#61\">CategoriesTable::validationDefault<\/a>"],[0,1,"<a href=\"Model\/Table\/CategoriesTable.php.html#82\">CategoriesTable::buildRules<\/a>"],[100,1,"<a href=\"Model\/Table\/UsersTable.php.html#37\">UsersTable::initialize<\/a>"],[0,3,"<a href=\"Model\/Table\/UsersTable.php.html#56\">UsersTable::beforeMarshal<\/a>"],[0,1,"<a href=\"Model\/Table\/UsersTable.php.html#93\">UsersTable::validationDefault<\/a>"],[0,1,"<a href=\"Model\/Table\/UsersTable.php.html#139\">UsersTable::validationEditUser<\/a>"],[0,1,"<a href=\"Model\/Table\/UsersTable.php.html#184\">UsersTable::buildRules<\/a>"],[0,2,"<a href=\"Shell\/ConsoleShell.php.html#33\">ConsoleShell::main<\/a>"],[0,1,"<a href=\"Shell\/ConsoleShell.php.html#67\">ConsoleShell::getOptionParser<\/a>"],[0,1,"<a href=\"Shell\/FileInfoShell.php.html#10\">FileInfoShell::main<\/a>"],[0,1,"<a href=\"Shell\/HelloShell.php.html#10\">HelloShell::main<\/a>"],[0,1,"<a href=\"Shell\/HelloShell.php.html#15\">HelloShell::showName<\/a>"],[0,1,"<a href=\"Shell\/HelloShell.php.html#26\">HelloShell::showJob<\/a>"],[0,2,"<a href=\"Shell\/HelloShell.php.html#39\">HelloShell::showOut<\/a>"],[0,1,"<a href=\"Shell\/HelloWorldShell.php.html#8\">HelloWorldShell::main<\/a>"],[0,2,"<a href=\"Shell\/MultiShell.php.html#8\">MultiShell::main<\/a>"],[0,1,"<a href=\"Shell\/ParserHelpShell.php.html#8\">ParserHelpShell::main<\/a>"],[0,1,"<a href=\"Shell\/ParserHelpShell.php.html#12\">ParserHelpShell::getOptionParser<\/a>"],[0,1,"<a href=\"Shell\/QueueShell.php.html#11\">QueueShell::main<\/a>"],[0,1,"<a href=\"Shell\/QueueShell.php.html#18\">QueueShell::getOptionParser<\/a>"],[0,1,"<a href=\"Shell\/SendMailShell.php.html#9\">SendMailShell::main<\/a>"],[0,3,"<a href=\"Shell\/Task\/FileInfoTask.php.html#10\">FileInfoTask::main<\/a>"],[0,1,"<a href=\"Shell\/Task\/UsersTask.php.html#9\">UsersTask::main<\/a>"],[0,1,"<a href=\"Shell\/Task\/UsersTask.php.html#14\">UsersTask::getUsers<\/a>"],[0,4,"<a href=\"Shell\/UserEnterShell.php.html#8\">UserEnterShell::main<\/a>"],[0,1,"<a href=\"Shell\/UserShell.php.html#13\">UserShell::initialize<\/a>"],[0,1,"<a href=\"Shell\/UserShell.php.html#21\">UserShell::main<\/a>"],[0,3,"<a href=\"Shell\/UserShell.php.html#26\">UserShell::saveUser<\/a>"],[0,1,"<a href=\"Shell\/UsersMailSendShell.php.html#14\">UsersMailSendShell::initialize<\/a>"],[0,3,"<a href=\"Shell\/UsersMailSendShell.php.html#20\">UsersMailSendShell::main<\/a>"],[0,2,"<a href=\"Shell\/UsersMailSendShell.php.html#44\">UsersMailSendShell::sendMail<\/a>"],[0,1,"<a href=\"Shell\/UsersMailSendShell.php.html#60\">UsersMailSendShell::getOptionParser<\/a>"],[0,1,"<a href=\"View\/AjaxView.php.html#43\">AjaxView::initialize<\/a>"],[0,1,"<a href=\"View\/AppView.php.html#38\">AppView::initialize<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
