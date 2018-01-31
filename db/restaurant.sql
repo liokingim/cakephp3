@@ -126,3 +126,11 @@ INSERT INTO `categories` (`id`, `parent_id`, `name`, `lft`, `rght`) VALUES
     (13, 9, 'Sausage', 23, 28),
     (14, 13, 'Battered sausage', 24, 25),
     (15, 13, 'Sausage sandwich', 26, 27);
+
+CREATE TABLE `menus` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT COMMENT 'id',
+  `name` VARCHAR(255) NOT NULL COMMENT 'menu name',
+  `created` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'create date',
+  `modified` DATETIME NULL DEFAULT NULL COMMENT 'modifiy date',
+  PRIMARY KEY (`id`)
+) COLLATE='utf8_general_ci' ENGINE=InnoDB;
