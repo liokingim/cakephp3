@@ -1,8 +1,8 @@
 <?php
 namespace App\Test\TestCase\Controller;
 
-use App\Controller\MenusController;
 use Cake\TestSuite\IntegrationTestCase;
+use Cake\ORM\TableRegistry;
 
 /**
  * App\Controller\MenusController Test Case
@@ -10,63 +10,115 @@ use Cake\TestSuite\IntegrationTestCase;
 class MenusControllerTest extends IntegrationTestCase
 {
 
-    /**
-     * Fixtures
-     *
-     * @var array
-     */
-    public $fixtures = [
-        'app.menus',
-        'app.comments'
+  /**
+   * Fixtures
+   *
+   * @var array
+   */
+  public $fixtures = [
+      'app.menus',
+  ];
+
+  /**
+   * Test index method
+   *
+   * @return void
+   */
+  public function testIndex()
+  {
+    $this->get('/menus');
+    $this->assertResponseOk();
+  }
+
+  /**
+   * Test view method
+   *
+   * @return void
+   */
+  public function testView()
+  {
+    $this->get('/menus/view');
+    $this->assertResponseError();
+
+    $this->get('/menus/view/1');
+    $this->assertResponseOk();
+    $this->assertResponseContains('Pizza');
+
+    $this->get('/menus/view/2');
+    $this->assertResponseError();
+  }
+
+  /**
+   * Test add method
+   *
+   * @return void
+   */
+  public function testAdd()
+  {
+    $data = [
+      'name' => 'Ramen',
     ];
+    $this->post('/menus/add', $data);
+    $this->assertResponseSuccess();
 
-    /**
-     * Test index method
-     *
-     * @return void
-     */
-    public function testIndex()
-    {
-        $this->markTestIncomplete('Not implemented yet.');
-    }
+    $menus = TableRegistry::get('Menus');
+    $query = $menus->find()->where(['name' => $data['name']]);
+    $this->assertEquals(1, $query->count());
 
-    /**
-     * Test view method
-     *
-     * @return void
-     */
-    public function testView()
-    {
-        $this->markTestIncomplete('Not implemented yet.');
-    }
+    $data = [
+      'name' => '     ',
+    ];
+    $this->post('/menus/add', $data);
+    $this->assertNoRedirect();
+  }
 
-    /**
-     * Test add method
-     *
-     * @return void
-     */
-    public function testAdd()
-    {
-        $this->markTestIncomplete('Not implemented yet.');
-    }
+  /**
+   * Test edit method
+   *
+   * @return void
+   */
+  public function testEdit()
+  {
+    $this->get('/menus/edit/1');
+    $this->assertResponseOk();
+  }
 
-    /**
-     * Test edit method
-     *
-     * @return void
-     */
-    public function testEdit()
-    {
-        $this->markTestIncomplete('Not implemented yet.');
-    }
+  /**
+   * Test delete method
+   *
+   * @return void
+   */
+  public function testDelete()
+  {
+    $this->post('/menus/delete');
+    $this->assertResponseError();
 
-    /**
-     * Test delete method
-     *
-     * @return void
-     */
-    public function testDelete()
-    {
-        $this->markTestIncomplete('Not implemented yet.');
-    }
+    $this->get('/menus/delete/1');
+    $this->assertResponseError();
+
+    $this->post('/menus/delete/2');
+    $this->assertResponseError();
+  }
+
+  public function testIpAccess()
+  {
+    $this->configRequest([
+      'headers' => ['CLIENT_IP' => '12.34.56.78'],
+      'environment' => ['REMOTE_ADDR' => '23.45.67.89']
+    ]);
+    $this->get('/menus');
+    $this->assertResponseOk();
+  }
+
+  public function testBasicAuthentication()
+  {
+    $this->configRequest([
+      'environment' => [
+        'PHP_AUTH_USER' => 'username',
+        'PHP_AUTH_PW' => 'password',
+      ]
+    ]);
+    $this->get('/menus');
+    $this->assertResponseOk();
+  }
 }
