@@ -16,9 +16,8 @@ class MenusController extends AppController
   public function beforeFilter(Event $event)
   {
     parent::beforeFilter($event);
-    $this->Auth->allow(['index', 'view', 'add', 'edit', 'delete']);
+    $this->Auth->allow(['index', 'view']);
   }
-
     /**
      * Index method
      *
@@ -27,6 +26,7 @@ class MenusController extends AppController
     public function index()
     {
         $menus = $this->paginate($this->Menus);
+
         $this->set(compact('menus'));
     }
 
@@ -55,6 +55,7 @@ class MenusController extends AppController
             $menu = $this->Menus->patchEntity($menu, $this->request->getData());
             if ($this->Menus->save($menu)) {
                 $this->Flash->success(__('The menu has been saved.'));
+
                 return $this->redirect(['action' => 'index']);
             }
             $this->Flash->error(__('The menu could not be saved. Please, try again.'));

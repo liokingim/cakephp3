@@ -43,7 +43,7 @@ class MenusFixture extends TestFixture
      *
      * @var array
      */
-    public $records = [
+/*    public $records = [
       [
         'id' => 1,
         'name' => 'Pizza',
@@ -56,5 +56,24 @@ class MenusFixture extends TestFixture
         'created' => '2018-01-31 16:36:29',
         'modified' => '2018-01-31 16:36:29'
       ],
+    ];*/
+
+  public function init()
+  {
+    $this->records = [
+      [
+        'id' => 1,
+        'name' => 'Pizza',
+        'created' => date('Y-m-d H:i:s'),
+        'modified' => date('Y-m-d H:i:s'),
+      ],
+      [
+        'id' => 2,
+        'name' => 'Ramen',
+        'created' => date('Y-m-d H:i:s'),
+        'modified' => date('Y-m-d H:i:s'),
+      ],
     ];
+    parent::init();
+  }
 }

@@ -23,6 +23,17 @@ class MenusControllerTest extends IntegrationTestCase
     $this->assertResponseOk();
   }
 
+  public function testView()
+  {
+    $this->get('menus/view/1');
+    $this->assertResponseOk();
+
+    // confirm created date
+    $menus = TableRegistry::get('Menus');
+    $query = $menus->find()->first();
+    var_dump($query->created);
+  }
+
   public function testAdd()
   {
     // auth login
