@@ -3,6 +3,8 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 use Cake\Event\Event;
+use function json_encode;
+use function var_dump;
 
 /**
  * Menus Controller
@@ -13,6 +15,12 @@ use Cake\Event\Event;
  */
 class MenusController extends AppController
 {
+  public function initialize()
+  {
+    parent::initialize();
+//    $this->loadComponent( 'RequestHandler');
+  }
+
   public function beforeFilter(Event $event)
   {
     parent::beforeFilter($event);
@@ -41,6 +49,7 @@ class MenusController extends AppController
     {
         $menu = $this->Menus->get($id);
         $this->set('menu', $menu);
+        $this->set('_serialize', ['menu']);
     }
 
     /**
@@ -106,4 +115,14 @@ class MenusController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
+
+  public function download($id = null)
+  {
+    $menus = $this->Menus->get($id);
+
+    $this->response->withType('application/json');
+    $this->response->getBody()->write(json_encode($menus));
+
+    return $this->response->withDownload('download.json');
+  }
 }

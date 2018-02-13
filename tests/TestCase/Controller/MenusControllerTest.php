@@ -4,6 +4,7 @@ namespace App\Test\TestCase\Controller;
 use App\Controller\MenusController;
 use Cake\TestSuite\IntegrationTestCase;
 use Cake\ORM\TableRegistry;
+use function json_encode;
 use function var_dump;
 
 /**
@@ -34,6 +35,29 @@ class MenusControllerTest extends IntegrationTestCase
     var_dump($query->created);
   }
 
+  public function testViewJson()
+  {
+    $this->configRequest([
+      'headers' => ['Accept' => 'application/json']
+    ]);
+    $result = $this->get('/menus/view/1');
+    $this->assertResponseOk();
+
+    $menus = TableRegistry::get('Menus');
+    $query = $menus->findById(1);
+    $data = $query->toArray();
+
+    $expected = ['id' => $data[0]['id'],
+                  'name' => $data[0]['name'],
+                  'created' => $data[0]['created'],
+                  'modified' =>$data[0]['modified']];
+    $expected = json_encode($expected, JSON_PRETTY_PRINT);
+    var_dump($expected);
+    var_dump(json_encode($data, JSON_PRETTY_PRINT));
+    exit();
+    $this->assertEquals($expected, json_encode($data));
+  }
+
   public function testAdd()
   {
     // auth login
@@ -50,6 +74,8 @@ class MenusControllerTest extends IntegrationTestCase
     $this->assertResponseOk();
 
     // add new menu
+    $this->enableCsrfToken();
+	  $this->enableSecurityToken();
     $this->enableRetainFlashMessages();
     $data = ['name' => 'salad',];
     $this->post('/menus/add', $data);
