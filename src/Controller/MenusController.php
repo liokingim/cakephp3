@@ -3,8 +3,10 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 use Cake\Event\Event;
+use Cake\Datasource\Exception\RecordNotFoundException;
 use function json_encode;
 use function var_dump;
+use function debug;
 
 /**
  * Menus Controller
@@ -47,9 +49,14 @@ class MenusController extends AppController
      */
     public function view($id = null)
     {
+      try {
         $menu = $this->Menus->get($id);
         $this->set('menu', $menu);
         $this->set('_serialize', ['menu']);
+      } catch (RecordNotFoundException $e) {
+        $this->autoRender = false;
+        debug("RecordNotFoundException.");
+      }
     }
 
     /**
@@ -81,19 +88,22 @@ class MenusController extends AppController
      */
     public function edit($id = null)
     {
-        $menu = $this->Menus->get($id, [
-            'contain' => []
-        ]);
+      try {
+        $menu = $this->Menus->get($id);
         if ($this->request->is(['patch', 'post', 'put'])) {
-            $menu = $this->Menus->patchEntity($menu, $this->request->getData());
-            if ($this->Menus->save($menu)) {
-                $this->Flash->success(__('The menu has been saved.'));
+          $menu = $this->Menus->patchEntity($menu, $this->request->getData());
+          if ($this->Menus->save($menu)) {
+            $this->Flash->success(__('The menu has been saved.'));
 
-                return $this->redirect(['action' => 'index']);
-            }
-            $this->Flash->error(__('The menu could not be saved. Please, try again.'));
+            return $this->redirect(['action' => 'index']);
+          }
+          $this->Flash->error(__('The menu could not be saved. Please, try again.'));
         }
         $this->set(compact('menu'));
+      } catch (RecordNotFoundException $e) {
+        $this->autoRender = false;
+        debug("RecordNotFoundException.");
+      }
     }
 
     /**
@@ -106,11 +116,17 @@ class MenusController extends AppController
     public function delete($id = null)
     {
         $this->request->allowMethod(['post', 'delete']);
-        $menu = $this->Menus->get($id);
-        if ($this->Menus->delete($menu)) {
-            $this->Flash->success(__('The menu has been deleted.'));
-        } else {
-            $this->Flash->error(__('The menu could not be deleted. Please, try again.'));
+
+        try {
+          $menu = $this->Menus->get($id);
+          if ($this->Menus->delete($menu)) {
+              $this->Flash->success(__('The menu has been deleted.'));
+          } else {
+              $this->Flash->error(__('The menu could not be deleted. Please, try again.'));
+          }
+        } catch (RecordNotFoundException $e) {
+          $this->autoRender = false;
+          debug("RecordNotFoundException.");
         }
 
         return $this->redirect(['action' => 'index']);

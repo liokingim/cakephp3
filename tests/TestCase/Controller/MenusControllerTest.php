@@ -52,9 +52,6 @@ class MenusControllerTest extends IntegrationTestCase
                   'created' => $data[0]['created'],
                   'modified' =>$data[0]['modified']];
     $expected = json_encode($expected, JSON_PRETTY_PRINT);
-    var_dump($expected);
-    var_dump(json_encode($data, JSON_PRETTY_PRINT));
-    exit();
     $this->assertEquals($expected, json_encode($data));
   }
 
