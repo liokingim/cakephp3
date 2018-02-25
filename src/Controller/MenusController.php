@@ -4,6 +4,7 @@ namespace App\Controller;
 use App\Controller\AppController;
 use Cake\Event\Event;
 use Cake\Datasource\Exception\RecordNotFoundException;
+use Cake\Chronos\Chronos;
 use function json_encode;
 use function var_dump;
 use function debug;
@@ -26,8 +27,9 @@ class MenusController extends AppController
   public function beforeFilter(Event $event)
   {
     parent::beforeFilter($event);
-    $this->Auth->allow(['index', 'view']);
+    $this->Auth->allow(['index', 'view', 'viewChronos']);
   }
+
     /**
      * Index method
      *
@@ -140,5 +142,29 @@ class MenusController extends AppController
     $this->response->getBody()->write(json_encode($menus));
 
     return $this->response->withDownload('download.json');
+  }
+
+  public function viewChronos($id = null)
+  {
+    $this->autoRender = false;
+    debug("now: " . Chronos::now());
+    debug("today: " . Chronos::today());
+    debug("yesterday: " . Chronos::yesterday());
+    debug("tomorrow: " . Chronos::tomorrow());
+
+    // 문자형
+    debug("parse: " . Chronos::parse('2018-01-01 11:30:00'));
+    debug("parse Date / Time: " . Chronos::parse('+5 days, +3 hours'));
+
+    // 숫자형
+    debug("create: " . Chronos::create(2018, 2, 20, 10, 50, 50));
+    debug("createFromDate: " . Chronos::createFromDate(2018, 2, 20));
+    debug("createFromTime: " . Chronos::createFromTime(10, 50, 50));
+    debug("createFromFormat: " . Chronos::createFromFormat('m/d/Y', '02/20/2018'));
+    debug("create chain: " . Chronos::create()->year(2018)->month(2)->day(25)
+                                      ->hour(4)->minute(30));
+
+    // 타임존
+    debug("timezone: " . Chronos::now()->timezone("UTC"));
   }
 }
