@@ -7,10 +7,6 @@ use Cake\Datasource\Exception\RecordNotFoundException;
 use Cake\Chronos\Chronos;
 use Cake\Chronos\ChronosInterface;
 use Cake\Chronos\MutableDateTime;
-use function json_encode;
-use const JSON_PRETTY_PRINT;
-use function var_dump;
-use function debug;
 
 /**
  * Menus Controller
